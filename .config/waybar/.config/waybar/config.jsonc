@@ -1,0 +1,277 @@
+{
+        "layer": "top",
+        "position": "top",
+        "reload_style_on_change": false,
+        "modules-left": ["hyprland/workspaces", "custom/updates", "group/tray"],
+        "modules-center": ["clock"],
+        "modules-right": ["mpris", "privacy", "group/audio", "group/misc", "group/connection", "custom/control-center"],
+        "hyprland/workspaces": {
+			"all-outputs": false,	
+            "format": "{name} <span font_size='8pt'>{windows}</span>",
+			"show-special": true,
+			"special-visible-only": true,
+       		"window-rewrite-default": "",
+			"window-rewrite": {
+				"class<firefox>": "",
+				"sterminal": "",
+				"kitty": "",
+					"class<kitty> title<vim.*>": "",
+				"sioyek": "",
+				"calibre-ebook-viewer": "",
+				"calibre-gui": "󰌱",
+				"class<UnrealEditor-?.*> title<.+>": "<span font_size='10pt'>󰦱</span>",
+				"class<io.github.achetagames.epic_asset_manager>": "",
+				"obsidian": "",
+				"code": "󰨞",
+				"class<btop>": "󰊚",
+				"KeePassXC": "",
+				"music": "","nautilus": "","Qalculate!": "",
+				"class<(com.stremio.stremio|stremio-enhanced)": "",
+				"steam": "","discord": " ","heroic": "",
+				"hl2_linux": "",
+				"Turtle-wow": "",
+				"class<(Minecraft Launcher)": "",
+					"class<(Minecraft.*\\d\\.\\d+\\.\\d+.*)>": "",
+				"class<(com.hypixel.HytaleLauncher)": "",	
+					"class<(HytaleClient)>": "",
+				"class<(steam_proton)>": "",
+				"class<(steam_app_.*)>": ""
+			} 
+
+		},
+        "mpris": {
+			"player": "chromium",
+			"interval": 5,	
+			"format": "{status_icon} {title} - {artist}",
+			"format-stopped": "{status_icon}",
+			"artist-len": 15,
+			"title-len": 20,
+			"player-icons": {
+				"firefox": "",
+				"chromium": ""
+			},
+			"status-icons": {
+				"playing": " ",
+				"paused": " ",
+				"stopped": " "
+			},
+			"ignored-players": ["firefox"]
+		},
+		"group/audio":
+		{
+            "orientation": "inherit",
+			"modules": [
+					"pulseaudio#input", "pulseaudio#output"
+			]	
+		},
+		"group/perf":
+		{
+            "orientation": "inherit",
+            "drawer": {
+                "transition-duration": 500,
+                "transition-left-to-right": false,
+			   	"children-class": "perf-element",
+				"click-to-reveal": "true"
+            },
+			"modules": [
+				 "custom/perf-icon", "temperature", "cpu", "memory" 	
+			]
+		},
+		"custom/perf-icon": {
+			"tooltip": false,	
+			"format": ""
+		},
+		"group/misc": 
+		{
+            "orientation": "inherit",
+			"modules": [
+				"custom/dnd",	
+				"custom/colortemp",
+			    "hyprland/language"
+			]
+		},
+		"custom/dnd":	
+		{
+			"exec": "~/scripts/dnd_status.sh",
+			"return-type": "json",
+			"interval": 10,
+			"exec-on-event": true,	
+			"tooltip": false,	
+			"format": "{icon}",
+            "on-click": "swaync-client -d",
+			"format-icons": {
+				"allow-notifs": "󰂚 ",
+				"block-notifs": "󰂛 "	
+			}
+		},
+		"custom/colortemp": {
+			"format": "{icon}",
+			"format-icons": ["󱩍", "󱩌"],
+			"interval": 5,
+			"exec": "gradtemp",
+			"on-click": "gradtemp tgl",
+			"return-type": "json"
+		},
+		"group/connection":
+		{
+			"orientation": "inherit",
+			"modules": [
+				"bluetooth", "network"
+			]
+		},
+		"custom/control-center": {
+            "tooltip": false,
+            "format": " ",
+            "on-click": "swaync-client -t -sw",
+            "escape": true
+        },
+        "clock": {
+            "format": "{:L%A %d/%m - %I:%M %p}",
+            "format-alt": "{:L%I:%M:%S %p}",
+            "interval": 1,   
+            "tooltip-format": "<tt>{calendar}</tt>",
+            "smooth-scrolling-threshold": 0.01,
+            "calendar": {
+                "mode"          : "year",
+                "mode-mon-col"  : 3,
+                "weeks-pos"     : "right",
+                "on-scroll"     : 1,
+                "format": {
+                    "months":     "<span color='#ffead3'><b>{}</b></span>",
+                    "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                    "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                    "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                    "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                }
+            },
+            "actions":  {
+                    "on-click-right": "mode",
+                    "on-scroll-up": "shift_up",
+                    "on-scroll-down": "shift_down"
+            }
+		},
+        "network": {
+            "format-wifi": " ",
+            "format-ethernet":" ",
+            "format-disconnected": "",
+            "tooltip-format-disconnected": "Not connected",
+            "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+            "tooltip-format-ethernet": "{ifname} 🖧   {bandwidthUpBits}  {bandwidthDownBits}",
+            "on-click": "kitty --class floating -e nmtui"
+        },
+        "bluetooth": {
+            "format": "󰂯 {status}",
+            "format-on": "󰂯",
+            "format-off": "󰂯 off",
+            "format-disabled": "󰂲",
+            "format-no-controller": "󰂲",
+	    	"format-connected-battery": "{device_battery_percentage}% 󰂯",
+            "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+            "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+            "tooltip-format-enumerate-connected": "{device_alias}\n{device_address}",
+            "tooltip-format-enumerate-connected-battery": "{device_alias}\n{device_address}\n{device_battery_percentage}%",
+            "on-click-right": "blueman-manager"
+        }, 
+		"custom/updates": {
+				"format": "{} {icon}",
+				"return-type": "json",
+				"format-icons": {
+						"has-updates": "󱍷",
+						"updated": "󰂪"
+				},
+				"exec-if": "which waybar-module-pacman-updates",
+				"exec": "waybar-module-pacman-updates --interval-seconds 5 --network-interval-seconds 300 --color-semver-updates --tooltip-align-columns"
+		},
+        "custom/tray-icon": {
+            "format": "󰍻 ",
+            "tooltip": false,
+			"rotate": 180   
+	    },
+        "group/tray": {
+            "orientation": "inherit",
+            "drawer": {
+                "transition-duration": 500,
+                "transition-left-to-right": true,
+			   	"children-class": "tray-element"
+            },
+            "modules": ["custom/tray-icon", "tray"]
+		},
+        "cpu": {
+            "format": "{usage}% ",
+            "tooltip": true
+        },
+        "memory": {
+            "format": "{percentage}% ",
+            "tooltip": true
+		},
+        "temperature": {
+            "critical-threshold": 80,
+            "format": "{temperatureC}° ",
+		    "hwmon-path": "/sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon1/temp1_input",
+            "tooltip-format": "CPU: {temperatureC}°C"
+		},
+        "tray": {
+            "icon-size": 14,
+            "spacing": 10
+        },
+		"privacy": {
+			"icon-spacing": 10,
+			"icon-size": 13,
+			"transition-duration": 250,
+			"modules": [
+				{
+					"type": "screenshare",
+					"tooltip": true,
+					"tooltip-icon-size": 24
+				},
+				{
+					"type": "audio-in",
+					"tooltip": true,
+					"tooltip-icon-size": 24
+				}
+			],
+			"ignore-monitor": true,
+			"ignore": [
+				{
+					"type": "audio-in",
+					"name": "cava"
+				},
+				{
+					"type": "screenshare",
+					"name": "obs"
+				}
+			]
+		},
+		"pulseaudio#input": {
+     		"scroll-step": 1,
+        	"format": "{format_source}",
+        	"format-source": " {volume}%",
+	        "format-source-muted": " ",	
+			"tooltip-format": "{format_source}",
+    		"on-click": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",	
+		    "on-scroll-up": "pactl set-source-volume @DEFAULT_SOURCE@ +5%",
+		    "on-scroll-down": "pactl set-source-volume @DEFAULT_SOURCE@ -5%"
+		},
+		"pulseaudio#output": {
+     		"scroll-step": 1,
+        	"format": "{icon} {volume}%",
+	        "format-bluetooth": "󰂰",
+        	"format-bluetooth-muted": "{format_muted}",
+	        "format-muted": "",
+        	"format-icons": {
+       			"headphone": " ",
+            	"headset": " ",
+       	    	"default": ["", "", " ", " "]
+		    },
+			"tooltip-format": "{desc}",
+	        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+	        "on-click-right": "pavucontrol"
+		},
+		"hyprland/language": {
+			"format": "󰥻 {}",
+			"format-en": "en",
+			"format-es": "es",
+			"tooltip": true
+		}
+} 
+

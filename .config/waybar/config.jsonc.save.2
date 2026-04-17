@@ -1,0 +1,169 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 32,
+    "spacing": 4,
+    "margin-top": 6,
+    "margin-left": 10,
+    "margin-right": 10,
+
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+
+    "modules-center": [
+      "clock",
+      "mpris"
+    ],
+
+    "modules-right": [
+        "backlight",
+        "memory",
+        "cpu",
+        "bluetooth",
+        "network",
+        "pulseaudio",
+        "battery",
+        "tray"
+    ],
+
+    // ── Left ──────────────────────────────────────────────────────────────
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+	    "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "urgent": "",
+            "active": "",
+            "default": ""
+        },
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "persistent-workspaces": {
+            "*": 10
+        }
+    },
+
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 60,
+        "separate-outputs": true
+    },
+
+    // ── Center ────────────────────────────────────────────────────────────
+
+    "clock": {
+        "format": " {:%H:%M}",
+        "format-alt": " {:%A, %B %d %Y}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "interval": 60
+    },
+    "mpris": {
+    "format": "{player_icon} {title} - {artist}",
+    "format-paused": "{player_icon}  {title} - {artist}",
+    "player-icons": {
+        "default": "▶",
+        "mpv": "🎵"
+    },
+    "status-icons": {
+        "paused": "⏸"
+    },
+    "max-length": 40
+},
+	
+
+    // ── Right ─────────────────────────────────────────────────────────────
+
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "☀ {percent}%",
+        "format-icons": ["🌑", "🌒", "🌓", "🌔", "🌕", "🌕", "☀", "☀", "🔆", "🔆"],
+        "on-scroll-up": "brightnessctl -e set 5%+",
+        "on-scroll-down": "brightnessctl -e set 5%-"
+    },
+
+    "memory": {
+        "interval": 5,
+        "format": " {used:0.1}G",
+        "tooltip-format": "{used:0.1f}G / {total:0.1f}G used",
+        "warning": 75,
+        "critical": 90
+    },
+
+    "cpu": {
+        "interval": 5,
+        "format": " {usage}%",
+        "tooltip-format": "{avg_frequency} GHz",
+        "warning": 75,
+        "critical": 90
+    },
+
+    "bluetooth": {
+        "format": "󰂯 {status}",
+        "format-connected": " {device_alias}",
+        "format-connected-battery": " {device_alias} {device_battery_percentage}%",
+        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
+        "on-click": "blueman-manager"
+    },
+    "network": {
+        "interval": 5,
+        "format-wifi": "  {signalStrength}%",
+        "format-ethernet": "󰈀 {ipaddr}",
+        "format-disconnected": "󰤭 Disconnected",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)\n⇡ {bandwidthUpBits}  ⇣ {bandwidthDownBits}",
+        "tooltip-format-ethernet": "{ifname}\n⇡ {bandwidthUpBits}  ⇣ {bandwidthDownBits}",
+        "on-click": "nm-connection-editor"
+    },
+
+    "pulseaudio": {
+        "format": "  {volume}%",
+        "format-bluetooth": "󰂯 {volume}%",
+        "format-bluetooth-muted": "󰂯 ",
+        "format-muted": "󰝟",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "󰂯",
+            "headset": "󰂯",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "scroll-step": 5,
+        "on-click": "pavucontrol",
+        "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+
+    "battery": {
+        "interval": 30,
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": "󰂄 {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "tooltip-format": "{timeTo}"
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 8
+    }
+}
+

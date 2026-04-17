@@ -1,0 +1,29 @@
+2026/04/05-17:51:13.232 2b0 Creating DB /home/rishi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_elevenlabs.io_0.indexeddb.leveldb since it was missing.
+2026/04/05-17:51:13.240 2b0 Reusing MANIFEST /home/rishi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_elevenlabs.io_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/05-17:51:13.265 2f4 Level-0 table #5: started
+2026/04/05-17:51:13.270 2f4 Level-0 table #5: 1273 bytes OK
+2026/04/05-17:51:13.273 2f4 Delete type=0 #3
+2026/04/05-17:51:13.273 2f3 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/04/05-17:57:34.029 2f3 Level-0 table #7: started
+2026/04/05-17:57:34.034 2f3 Level-0 table #7: 149803 bytes OK
+2026/04/05-17:57:34.037 2f3 Delete type=0 #4
+2026/04/05-17:57:34.038 2ae Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/04/05-18:35:48.015 2ae Level-0 table #9: started
+2026/04/05-18:35:48.020 2ae Level-0 table #9: 144814 bytes OK
+2026/04/05-18:35:48.024 2ae Delete type=0 #6
+2026/04/05-18:35:48.027 2ae Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x07\x01\x02\x01\x16\x00w\x00o\x00r\x00k\x00s\x00p\x00a\x00c\x00e\x00-\x00i\x00n\x00-\x00a\x00p\x00p\x00-\x00t\x00e\x00r\x00m\x00s' @ 491 : 1
+2026/04/05-18:35:48.027 2ae Compacting 1@0 + 1@1 files
+2026/04/05-18:35:48.032 2ae Generated table #10@0: 239 keys, 19342 bytes
+2026/04/05-18:35:48.032 2ae Compacted 1@0 + 1@1 files => 19342 bytes
+2026/04/05-18:35:48.035 2ae compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/05-18:35:48.035 2ae Delete type=2 #9
+2026/04/05-18:35:48.035 2ae Delete type=2 #7
+2026/04/05-18:35:48.036 2ae Manual compaction at level-0 from '\x00\x07\x01\x02\x01\x16\x00w\x00o\x00r\x00k\x00s\x00p\x00a\x00c\x00e\x00-\x00i\x00n\x00-\x00a\x00p\x00p\x00-\x00t\x00e\x00r\x00m\x00s' @ 491 : 1 .. (end); will stop at (end)
+2026/04/05-18:35:48.037 2ae Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x07\x01\x02\x01\x16\x00w\x00o\x00r\x00k\x00s\x00p\x00a\x00c\x00e\x00-\x00i\x00n\x00-\x00a\x00p\x00p\x00-\x00t\x00e\x00r\x00m\x00s' @ 491 : 1
+2026/04/05-18:35:48.037 2ae Compacting 1@1 + 1@2 files
+2026/04/05-18:35:48.040 2ae Generated table #11@1: 103 keys, 18910 bytes
+2026/04/05-18:35:48.041 2ae Compacted 1@1 + 1@2 files => 18910 bytes
+2026/04/05-18:35:48.043 2ae compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/05-18:35:48.043 2ae Delete type=2 #5
+2026/04/05-18:35:48.044 2ae Delete type=2 #10
+2026/04/05-18:35:48.044 2ae Manual compaction at level-1 from '\x00\x07\x01\x02\x01\x16\x00w\x00o\x00r\x00k\x00s\x00p\x00a\x00c\x00e\x00-\x00i\x00n\x00-\x00a\x00p\x00p\x00-\x00t\x00e\x00r\x00m\x00s' @ 491 : 1 .. (end); will stop at (end)

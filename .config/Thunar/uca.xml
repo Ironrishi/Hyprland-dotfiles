@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>visual-studio-code</icon>
+	<name>Open Folder in VSCode</name>
+	<submenu></submenu>
+	<unique-id>1708172678564223-1</unique-id>
+	<command>code %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>vlc</icon>
+	<name>Open Folder in VLC</name>
+	<submenu></submenu>
+	<unique-id>1708192501162322-1</unique-id>
+	<command>vlc %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>preferences-desktop-wallpaper</icon>
+	<name>Set swww Wallpaper</name>
+	<submenu></submenu>
+	<unique-id>1708547426325782-1</unique-id>
+	<command>~/.config/Thunar/scripts/wallpaper.sh %f &amp;</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1703572977408169-1</unique-id>
+	<command>kitty %f</command>
+	<description>Launch TerminalEmulator</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>audacious</icon>
+	<name>Add to audacious playlist</name>
+	<submenu></submenu>
+	<unique-id>1681893052016505-1</unique-id>
+	<command>audacious -e %U</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<audio-files/>
+</action>
+<action>
+	<icon>checkbox</icon>
+	<name>Check sha1sum</name>
+	<submenu></submenu>
+	<unique-id>1526633271260079-26</unique-id>
+	<command>yad --info --title=&quot;Check sha1 for %n&quot; --text=&quot;$(sha1sum %f)&quot;</command>
+	<description>Check sha1sum</description>
+	<range></range>
+	<patterns>*</patterns>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>checkbox</icon>
+	<name>Check sha256sum</name>
+	<submenu></submenu>
+	<unique-id>1577688162350307-1</unique-id>
+	<command>yad --info --title=&quot;Check sha256 for %n&quot; --text=&quot;$(sha256sum %f)&quot;</command>
+	<description>Check sha256sum</description>
+	<range></range>
+	<patterns>*</patterns>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>checkbox</icon>
+	<name>Check md5sum</name>
+	<submenu></submenu>
+	<unique-id>1526736788575383-2</unique-id>
+	<command>yad --info --title=&quot;Check md5 for %n&quot; --text=&quot;$(md5sum %f)&quot;</command>
+	<description>Check md5sum</description>
+	<range></range>
+	<patterns>*</patterns>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>gtk-convert</icon>
+	<name>Convert Video: x264 .mp4</name>
+	<submenu></submenu>
+	<unique-id>1708549565848944-1</unique-id>
+	<command>ffmpeg -i %n -c:v libx264 %n.mp4</command>
+	<description></description>
+	<range>1</range>
+	<patterns>*</patterns>
+	<video-files/>
+</action>
+<action>
+	<icon>gtk-convert</icon>
+	<name>Convert PDF: .png</name>
+	<submenu></submenu>
+	<unique-id>1708633073135188-1</unique-id>
+	<command>pdfimages -png %f %f</command>
+	<description></description>
+	<range>1</range>
+	<patterns>*.pdf</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>gtk-convert</icon>
+	<name>Compress PDF</name>
+	<submenu></submenu>
+	<unique-id>1708633290220075-2</unique-id>
+	<command>gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=%f_compressed.pdf %f</command>
+	<description></description>
+	<range>1</range>
+	<patterns>*.pdf</patterns>
+	<other-files/>
+</action>
+</actions>

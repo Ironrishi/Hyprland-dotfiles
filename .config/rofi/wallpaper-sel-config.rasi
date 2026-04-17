@@ -1,0 +1,35 @@
+@import "config.rasi"
+
+configuration {
+    show-icons: true;
+    icon-theme: "Papirus";
+}
+
+window {
+    width: 1100px;
+    location: center;
+}
+
+listview {
+    columns: 5;
+    lines: 3;
+    spacing: 6px;
+    scrollbar: false;
+}
+
+element {
+    orientation: vertical;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+element-icon {
+    size: 160px;
+    border-radius: 6px;
+}
+
+element-text {
+    horizontal-align: 0.5;
+    font: "Mono 10";
+}
+

@@ -1,0 +1,15 @@
+2026/04/12-13:15:38.769 2a5 Reusing MANIFEST /home/rishi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/12-13:15:38.769 2a5 Recovering log #11
+2026/04/12-13:15:38.770 2a5 Reusing old log /home/rishi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000011.log 
+2026/04/12-13:15:42.460 2a7 Level-0 table #16: started
+2026/04/12-13:15:42.464 2a7 Level-0 table #16: 5099 bytes OK
+2026/04/12-13:15:42.468 2a7 Delete type=0 #11
+2026/04/12-13:15:42.469 2a7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/04/12-13:15:42.469 2a7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01 \x01\x1d\x00u\x00s\x00e\x00r\x00-\x00V\x00b\x00o\x00M\x00P\x00I\x00E\x00z\x001\x004\x00s\x00Z\x00O\x00c\x00C\x00t\x00f\x000\x00P\x00z\x00v\x00x\x00k\x00B\x00\x01$\x006\x009\x00d\x000\x00b\x00a\x009\x00c\x00-\x00b\x00d\x00f\x008\x00-\x008\x003\x00e\x008\x00-\x009\x002\x009\x006\x00-\x007\x000\x00a\x00f\x00a\x006\x004\x000\x007\x00d\x000\x00f' @ 1392 : 1
+2026/04/12-13:15:42.469 2a7 Compacting 1@1 + 1@2 files
+2026/04/12-13:15:42.477 2a7 Generated table #17@1: 98 keys, 95724 bytes
+2026/04/12-13:15:42.477 2a7 Compacted 1@1 + 1@2 files => 95724 bytes
+2026/04/12-13:15:42.482 2a7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/12-13:15:42.482 2a7 Delete type=2 #13
+2026/04/12-13:15:42.482 2a7 Delete type=2 #16
+2026/04/12-13:15:42.483 2a7 Manual compaction at level-1 from '\x00\x02\x01 \x01\x1d\x00u\x00s\x00e\x00r\x00-\x00V\x00b\x00o\x00M\x00P\x00I\x00E\x00z\x001\x004\x00s\x00Z\x00O\x00c\x00C\x00t\x00f\x000\x00P\x00z\x00v\x00x\x00k\x00B\x00\x01$\x006\x009\x00d\x000\x00b\x00a\x009\x00c\x00-\x00b\x00d\x00f\x008\x00-\x008\x003\x00e\x008\x00-\x009\x002\x009\x006\x00-\x007\x000\x00a\x00f\x00a\x006\x004\x000\x007\x00d\x000\x00f' @ 1392 : 1 .. (end); will stop at (end)

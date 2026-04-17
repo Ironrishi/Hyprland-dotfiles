@@ -1,0 +1,77 @@
+2026/04/12-13:33:48.315 2a5 Reusing MANIFEST /home/rishi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/12-13:33:48.321 2a5 Recovering log #5734
+2026/04/12-13:33:48.343 2a5 Reusing old log /home/rishi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/005734.log 
+2026/04/12-13:34:19.972 2a7 Level-0 table #5748: started
+2026/04/12-13:34:19.985 2a7 Level-0 table #5748: 344753 bytes OK
+2026/04/12-13:34:19.990 2a7 Delete type=0 #5734
+2026/04/12-13:34:19.990 2a7 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x0f-\x02\x01\x0d\x00W\x00A\x00R\x00o\x00u\x00t\x00i\x00n\x00g\x00I\x00n\x00f\x00o' @ 14972158 : 1
+2026/04/12-13:34:19.991 2a7 Compacting 2@0 + 1@1 files
+2026/04/12-13:34:20.019 2a7 Generated table #5749@0: 18280 keys, 163903 bytes
+2026/04/12-13:34:20.034 2a7 Generated table #5750@0: 3451 keys, 242155 bytes
+2026/04/12-13:34:20.034 2a7 Compacted 2@0 + 1@1 files => 406058 bytes
+2026/04/12-13:34:20.037 2a7 compacted to: files[ 0 3 27 0 0 0 0 ]
+2026/04/12-13:34:20.038 2a7 Delete type=2 #5735
+2026/04/12-13:34:20.038 2a7 Delete type=2 #5730
+2026/04/12-13:34:20.038 2a7 Delete type=2 #5748
+2026/04/12-13:34:20.038 2a7 Manual compaction at level-0 from '\x00\x0f-\x02\x01\x0d\x00W\x00A\x00R\x00o\x00u\x00t\x00i\x00n\x00g\x00I\x00n\x00f\x00o' @ 14972158 : 1 .. (end); will stop at (end)
+2026/04/12-13:34:20.039 2a7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x19\x00\x002\x01\x07' @ 14946046 : 1
+2026/04/12-13:34:20.039 2a7 Compacting 3@1 + 27@2 files
+2026/04/12-13:34:20.101 2a7 Generated table #5751@1: 34713 keys, 2346620 bytes
+2026/04/12-13:34:20.149 2a7 Generated table #5752@1: 28369 keys, 2185666 bytes
+2026/04/12-13:34:20.175 2a7 Generated table #5753@1: 1872 keys, 2150782 bytes
+2026/04/12-13:34:20.200 2a7 Generated table #5754@1: 1541 keys, 2147275 bytes
+2026/04/12-13:34:20.225 2a7 Generated table #5755@1: 1681 keys, 2146619 bytes
+2026/04/12-13:34:20.253 2a7 Generated table #5756@1: 2692 keys, 2147984 bytes
+2026/04/12-13:34:20.281 2a7 Generated table #5757@1: 2835 keys, 2151090 bytes
+2026/04/12-13:34:20.308 2a7 Generated table #5758@1: 2456 keys, 2146649 bytes
+2026/04/12-13:34:20.342 2a7 Generated table #5759@1: 6874 keys, 2156260 bytes
+2026/04/12-13:34:20.412 2a7 Generated table #5760@1: 30729 keys, 2256947 bytes
+2026/04/12-13:34:20.481 2a7 Generated table #5761@1: 27420 keys, 2259511 bytes
+2026/04/12-13:34:20.548 2a7 Generated table #5762@1: 33531 keys, 2214555 bytes
+2026/04/12-13:34:20.599 2a7 Generated table #5763@1: 13555 keys, 2212201 bytes
+2026/04/12-13:34:20.630 2a7 Generated table #5764@1: 8699 keys, 2142355 bytes
+2026/04/12-13:34:20.660 2a7 Generated table #5765@1: 5329 keys, 2126418 bytes
+2026/04/12-13:34:20.688 2a7 Generated table #5766@1: 5721 keys, 2126960 bytes
+2026/04/12-13:34:20.736 2a7 Generated table #5767@1: 30435 keys, 2153495 bytes
+2026/04/12-13:34:20.825 2a7 Generated table #5768@1: 97619 keys, 2246718 bytes
+2026/04/12-13:34:20.911 2a7 Generated table #5769@1: 95558 keys, 2245612 bytes
+2026/04/12-13:34:20.997 2a7 Generated table #5770@1: 96126 keys, 2244517 bytes
+2026/04/12-13:34:21.085 2a7 Generated table #5771@1: 96231 keys, 2245517 bytes
+2026/04/12-13:34:21.175 2a7 Generated table #5772@1: 95838 keys, 2243976 bytes
+2026/04/12-13:34:21.264 2a7 Generated table #5773@1: 95587 keys, 2243822 bytes
+2026/04/12-13:34:21.350 2a7 Generated table #5774@1: 94918 keys, 2244079 bytes
+2026/04/12-13:34:21.424 2a7 Generated table #5775@1: 77041 keys, 2225731 bytes
+2026/04/12-13:34:21.429 2a7 Generated table #5776@1: 420 keys, 18168 bytes
+2026/04/12-13:34:21.429 2a7 Compacted 3@1 + 27@2 files => 55029527 bytes
+2026/04/12-13:34:21.434 2a7 compacted to: files[ 0 0 26 0 0 0 0 ]
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5745
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5721
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5732
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5719
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5587
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5643
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5750
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5749
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5742
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5733
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5743
+2026/04/12-13:34:21.435 2a7 Delete type=2 #5720
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5724
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5641
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5710
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5586
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5726
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5739
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5723
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5725
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5727
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5722
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5744
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5736
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5740
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5642
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5718
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5738
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5737
+2026/04/12-13:34:21.436 2a7 Delete type=2 #5741
+2026/04/12-13:34:21.439 2a7 Manual compaction at level-1 from '\x00\x19\x00\x002\x01\x07' @ 14946046 : 1 .. (end); will stop at (end)

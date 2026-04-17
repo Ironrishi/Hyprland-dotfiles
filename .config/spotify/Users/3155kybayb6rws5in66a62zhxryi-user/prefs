@@ -1,0 +1,6 @@
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"192.168.29.224\",\"app_state\":\"INSTALLED\",\"created_timestamp\":1776092675,\"device_id\":\"fbe8f0ab-6c0d-4e5a-a94f-f188285c5ee3\",\"dial_location_url\":\"http://192.168.29.224:1617/\",\"display_name\":\"[LG] webOS TV LM636BPTB\",\"last_seen\":1776095617,\"manufacturer\":\"LG Electronics\",\"model_name\":\"32LM636BPTB\",\"product_cap\":\"\",\"public_ip\":\"49.36.109.26\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"acf1083957fa\",\"port\":9,\"retries\":480}}]"
+connect.mdns_devices="[]"
+audio.play_bitrate_non_metered_enumeration=3
+audio.play_bitrate_enumeration=3
+app.browser.zoom-level=-50
