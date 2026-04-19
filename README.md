@@ -15,6 +15,16 @@ My personal Arch Linux dotfiles for a Hyprland-based setup.
 | Notification Daemon | [Dunst](https://dunst-project.org/) |
 | Shell | Zsh + Oh My Zsh |
 
+##Screenshots
+
+![] (screenshots/ss1.jpg)
+
+![] (screenshots/ss2.jpg)
+rofi
+
+![] (screenshots/ss3.jpg)
+yazi
+
 ## Installation
 
 ### 1. Install packages
