@@ -1,0 +1,74 @@
+<style>
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;padding:1rem 0}
+.card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.25rem}
+.card h3{font-size:13px;font-weight:500;color:var(--color-text-secondary);margin:0 0 10px;text-transform:uppercase;letter-spacing:0.05em}
+.row{display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:0.5px solid var(--color-border-tertiary)}
+.row:last-child{border-bottom:none}
+.row span{font-size:13px;color:var(--color-text-secondary)}
+kbd{background:var(--color-background-secondary);border:0.5px solid var(--color-border-secondary);border-radius:4px;padding:2px 6px;font-family:var(--font-mono);font-size:12px;color:var(--color-text-primary)}
+</style>
+<h2 class="sr-only">Yazi file manager keyboard shortcuts cheatsheet</h2>
+<div class="grid">
+  <div class="card">
+    <h3>Navigation</h3>
+    <div class="row"><span>Move up/down</span><div><kbd>k</kbd> <kbd>j</kbd></div></div>
+    <div class="row"><span>Enter dir</span><kbd>l</kbd></div>
+    <div class="row"><span>Go back</span><kbd>h</kbd></div>
+    <div class="row"><span>Top / bottom</span><div><kbd>gg</kbd> <kbd>G</kbd></div></div>
+    <div class="row"><span>Back in history</span><kbd>H</kbd></div>
+    <div class="row"><span>Forward in history</span><kbd>L</kbd></div>
+    <div class="row"><span>Half page up/down</span><div><kbd>C-u</kbd> <kbd>C-d</kbd></div></div>
+  </div>
+  <div class="card">
+    <h3>Goto bookmarks</h3>
+    <div class="row"><span>Home</span><kbd>gh</kbd></div>
+    <div class="row"><span>~/.config</span><kbd>gc</kbd></div>
+    <div class="row"><span>~/Downloads</span><kbd>gd</kbd></div>
+    <div class="row"><span>Interactive jump</span><kbd>g Space</kbd></div>
+    <div class="row"><span>Follow symlink</span><kbd>gf</kbd></div>
+    <div class="row"><span>Jump via fzf</span><kbd>z</kbd></div>
+    <div class="row"><span>Jump via zoxide</span><kbd>Z</kbd></div>
+  </div>
+  <div class="card">
+    <h3>File operations</h3>
+    <div class="row"><span>Open file</span><kbd>Enter</kbd></div>
+    <div class="row"><span>Open interactive</span><kbd>O</kbd></div>
+    <div class="row"><span>Copy (yank)</span><kbd>y</kbd></div>
+    <div class="row"><span>Cut</span><kbd>x</kbd></div>
+    <div class="row"><span>Paste</span><kbd>p</kbd></div>
+    <div class="row"><span>Paste (overwrite)</span><kbd>P</kbd></div>
+    <div class="row"><span>Rename</span><kbd>r</kbd></div>
+    <div class="row"><span>Create file/dir</span><kbd>a</kbd></div>
+    <div class="row"><span>Trash</span><kbd>d</kbd></div>
+    <div class="row"><span>Delete permanently</span><kbd>D</kbd></div>
+  </div>
+  <div class="card">
+    <h3>Selection</h3>
+    <div class="row"><span>Toggle select</span><kbd>Space</kbd></div>
+    <div class="row"><span>Select all</span><kbd>C-a</kbd></div>
+    <div class="row"><span>Invert selection</span><kbd>C-r</kbd></div>
+    <div class="row"><span>Visual mode</span><kbd>v</kbd></div>
+    <div class="row"><span>Unset visual mode</span><kbd>V</kbd></div>
+  </div>
+  <div class="card">
+    <h3>Search & filter</h3>
+    <div class="row"><span>Filter files</span><kbd>f</kbd></div>
+    <div class="row"><span>Find next</span><kbd>/</kbd></div>
+    <div class="row"><span>Find previous</span><kbd>?</kbd></div>
+    <div class="row"><span>Next result</span><kbd>n</kbd></div>
+    <div class="row"><span>Prev result</span><kbd>N</kbd></div>
+    <div class="row"><span>Search by name (fd)</span><kbd>s</kbd></div>
+    <div class="row"><span>Search content (rg)</span><kbd>S</kbd></div>
+  </div>
+  <div class="card">
+    <h3>Tabs & misc</h3>
+    <div class="row"><span>New tab</span><kbd>C-t</kbd></div>
+    <div class="row"><span>Switch tab</span><div><kbd>[</kbd> <kbd>]</kbd></div></div>
+    <div class="row"><span>Toggle hidden files</span><kbd>.</kbd></div>
+    <div class="row"><span>Shell command</span><kbd>;</kbd></div>
+    <div class="row"><span>Spot/preview file</span><kbd>Tab</kbd></div>
+    <div class="row"><span>Task manager</span><kbd>w</kbd></div>
+    <div class="row"><span>Help</span><kbd>~</kbd></div>
+    <div class="row"><span>Quit</span><kbd>q</kbd></div>
+  </div>
+</div>
