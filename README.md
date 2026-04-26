@@ -17,13 +17,13 @@ My personal Arch Linux dotfiles for a Hyprland-based setup.
 
 ## Screenshots
 
-![desktop](screenshots/ss1.png)
+![desktop](Screenshots/ss1.png)
 
 **rofi**
-![rofi](screenshots/ss2.png)
+![rofi](Screenshots/ss2.png)
 
 **yazi**
-![yazi](screenshots/ss3.png)
+![yazi](Screenshots/ss3.png)
 
 
 ## Installation
