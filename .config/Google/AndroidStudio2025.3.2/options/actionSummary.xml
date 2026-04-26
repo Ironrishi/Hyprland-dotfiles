@@ -1,0 +1,25 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="EditorEnter">
+      <i c="2" l="1772371739002" />
+    </e>
+    <e n="GoogleLoginV2.LoginService">
+      <i c="1" l="1772888874752" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1772889238599" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1772888800234" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="2" l="1772888807523" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="1" l="1772889165902" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1772888843129" />
+    </e>
+  </component>
+</application>

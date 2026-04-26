@@ -1,0 +1,473 @@
+[2026-04-23 18:16:44.289] [info]                      Setting open at login to true
+[2026-04-23 18:16:44.339] [debug] (CoreAudioTapController) Core Audio Tap inactive: unsupported platform or macOS version
+[2026-04-23 18:16:44.341] [info]  (CoreAudioTapController) Core Audio Tap controller initialized {
+  isActive: false,
+  isSupported: false,
+  systemVersion: 'n/a',
+  coreAudioTapGateEnabled: false,
+  cutoff: 0
+}
+[2026-04-23 18:16:44.519] [info]                           AppController previousRestorationState {}
+[2026-04-23 18:16:44.559] [info]                           App starting with version 7.6.1 (6215adc) { system: 'linux x64', electron: '39.5.2' }
+[2026-04-23 18:16:44.986] [info]                           {
+  eventName: 'electron_performance_event',
+  eventProperties: {
+    performance_event: 'app_launch_to_app_ready',
+    duration_ms: 2689.531879
+  }
+}
+[2026-04-23 18:16:44.989] [info]                           {
+  eventName: 'electron_auto_update_event',
+  eventProperties: { action: 'initialized', desktop_target_platform: 'windows' }
+}
+[2026-04-23 18:16:45.527] [info]                           Invalid workspace filter will be ignored: null
+[2026-04-23 18:16:45.681] [info]                           Activated { options: {} }
+[2026-04-23 18:16:45.684] [info]                           Finished rehydrating entire app in foreground { success: false }
+[2026-04-23 18:16:45.685] [info]                           {
+  eventName: 'electron_new_window',
+  eventProperties: {
+    desktop_tab_count: 0,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 0
+  }
+}
+[2026-04-23 18:16:45.692] [info]                           Window restoration: no stored state, using default placement { width: 1320, height: 860 }
+[2026-04-23 18:16:45.918] [warn]                           Window not found
+[2026-04-23 18:16:45.964] [info]                           New window created {
+  windowId: 'e231e2d6-f453-4b4c-be17-294553c29e8c',
+  showWhenLoaded: true
+}
+[2026-04-23 18:16:46.153] [info]                           {
+  eventName: 'electron_new_tab',
+  eventProperties: {
+    desktop_tab_count: 1,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 1,
+    tab_section_id: 'ungrouped',
+    is_prewarmed_tab: false,
+    is_app_rehydrating: false
+  }
+}
+[2026-04-23 18:16:46.155] [info]                           New Tab Controller {
+  id: '064b379e-5a43-452b-9351-c7562bbf151f',
+  initialUrl: 'https://www.notion.so/?loadOrigin=new_tab',
+  windowId: 'e231e2d6-f453-4b4c-be17-294553c29e8c',
+  isAppRehydrating: false,
+  tabId: '064b379e-5a43-452b-9351-c7562bbf151f',
+  fromPrewarmTab: false
+}
+[2026-04-23 18:16:46.371] [info]                           {
+  eventName: 'electron_app_lifecycle_event',
+  eventProperties: { lifecycle_event: 'app_start', desktop_target_platform: 'windows' }
+}
+[2026-04-23 18:16:46.373] [info]                           {
+  eventName: 'electron_app_preferences',
+  eventProperties: {
+    event_source: 'app_start',
+    is_closing_browser_tabs: false,
+    is_auto_updater_disabled: false,
+    is_auto_updater_o_s_support_bypass: false,
+    is_hardware_acceleration_disabled: false,
+    updater_channel: null,
+    is_quick_search_enabled: true,
+    is_hide_last_window_on_close_enabled: true,
+    is_open_at_login_enabled: true,
+    quick_search_shortcut: 'Shift+CommandOrControl+K',
+    notion_ai_shortcut: 'shift+ctrl+j',
+    is_menu_bar_icon_enabled: true,
+    is_using_https: true,
+    is_new_tab_search_enabled: true,
+    is_vibrancy_enabled: null,
+    is_navigation_history_enabled: true,
+    is_tab_preview_enabled: true,
+    is_pinned_tab_new_tab_enabled: true,
+    is_tab_spaces_enabled: true,
+    is_universal_links_enabled: true,
+    sqlite_connection_type: 'message-ports',
+    on_startup: 'continue',
+    ignore_log_messages: [ 'Electron Security Warning', 'chrome-extension://' ],
+    disabled_extensions: [ 'React Developer Tools' ],
+    is_always_on_tab_bar_enabled: true,
+    is_tab_unloading_enabled: true,
+    is_zen_mode_enabled: true,
+    is_prewarmed_tab_throttling_enabled: true,
+    is_prewarmed_tab_hidden_behind_enabled: false,
+    should_use_prewarmed_tab_heuristic: false
+  }
+}
+[2026-04-23 18:16:53.725] [info]                           notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-04-23 18:16:53.730] [info]                           {
+  eventName: 'electron_app_preferences',
+  eventProperties: {
+    event_source: 'preferences_changed',
+    is_closing_browser_tabs: false,
+    is_auto_updater_disabled: false,
+    is_auto_updater_o_s_support_bypass: false,
+    is_hardware_acceleration_disabled: false,
+    updater_channel: null,
+    is_quick_search_enabled: true,
+    is_hide_last_window_on_close_enabled: true,
+    is_open_at_login_enabled: true,
+    quick_search_shortcut: 'Shift+CommandOrControl+K',
+    notion_ai_shortcut: 'shift+ctrl+j',
+    is_menu_bar_icon_enabled: true,
+    is_using_https: true,
+    is_new_tab_search_enabled: true,
+    is_vibrancy_enabled: null,
+    is_navigation_history_enabled: true,
+    is_tab_preview_enabled: true,
+    is_pinned_tab_new_tab_enabled: true,
+    is_tab_spaces_enabled: true,
+    is_universal_links_enabled: true,
+    sqlite_connection_type: 'message-ports',
+    on_startup: 'continue',
+    ignore_log_messages: [ 'Electron Security Warning', 'chrome-extension://' ],
+    disabled_extensions: [ 'React Developer Tools' ],
+    is_always_on_tab_bar_enabled: true,
+    tab_unload_threshold: 36000000,
+    is_tab_unloading_enabled: true,
+    is_zen_mode_enabled: true,
+    is_prewarmed_tab_throttling_enabled: true,
+    is_prewarmed_tab_hidden_behind_enabled: false,
+    should_use_prewarmed_tab_heuristic: false
+  }
+}
+[2026-04-23 18:16:53.736] [info]                           notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: false }
+[2026-04-23 18:16:53.741] [info]                           {
+  eventName: 'electron_app_preferences',
+  eventProperties: {
+    event_source: 'preferences_changed',
+    is_closing_browser_tabs: false,
+    is_auto_updater_disabled: false,
+    is_auto_updater_o_s_support_bypass: false,
+    is_hardware_acceleration_disabled: false,
+    updater_channel: null,
+    is_quick_search_enabled: true,
+    is_hide_last_window_on_close_enabled: true,
+    is_open_at_login_enabled: true,
+    quick_search_shortcut: 'Shift+CommandOrControl+K',
+    notion_ai_shortcut: 'shift+ctrl+j',
+    is_menu_bar_icon_enabled: true,
+    is_using_https: true,
+    is_new_tab_search_enabled: true,
+    is_vibrancy_enabled: null,
+    is_navigation_history_enabled: true,
+    is_tab_preview_enabled: true,
+    is_pinned_tab_new_tab_enabled: true,
+    is_tab_spaces_enabled: true,
+    is_universal_links_enabled: true,
+    sqlite_connection_type: 'message-ports',
+    on_startup: 'continue',
+    ignore_log_messages: [ 'Electron Security Warning', 'chrome-extension://' ],
+    disabled_extensions: [ 'React Developer Tools' ],
+    is_always_on_tab_bar_enabled: true,
+    tab_unload_threshold: 36000000,
+    is_tab_unloading_enabled: true,
+    is_zen_mode_enabled: true,
+    should_unload_tabs_before_refresh: false,
+    is_prewarmed_tab_throttling_enabled: true,
+    is_prewarmed_tab_hidden_behind_enabled: false,
+    should_use_prewarmed_tab_heuristic: false
+  }
+}
+[2026-04-23 18:16:53.747] [info]                           notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-04-23 18:16:53.753] [info]                           notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-04-23 18:16:53.777] [info]                           notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-04-23 18:16:53.781] [info]                           {
+  eventName: 'electron_app_preferences',
+  eventProperties: {
+    event_source: 'preferences_changed',
+    is_closing_browser_tabs: false,
+    is_auto_updater_disabled: false,
+    is_auto_updater_o_s_support_bypass: false,
+    is_hardware_acceleration_disabled: false,
+    updater_channel: null,
+    is_quick_search_enabled: true,
+    is_hide_last_window_on_close_enabled: true,
+    is_open_at_login_enabled: true,
+    quick_search_shortcut: 'Shift+CommandOrControl+K',
+    notion_ai_shortcut: 'shift+ctrl+j',
+    is_menu_bar_icon_enabled: true,
+    is_using_https: true,
+    is_new_tab_search_enabled: true,
+    is_vibrancy_enabled: null,
+    is_navigation_history_enabled: true,
+    is_tab_preview_enabled: true,
+    is_pinned_tab_new_tab_enabled: true,
+    is_tab_spaces_enabled: true,
+    is_universal_links_enabled: true,
+    sqlite_connection_type: 'message-ports',
+    on_startup: 'continue',
+    ignore_log_messages: [ 'Electron Security Warning', 'chrome-extension://' ],
+    disabled_extensions: [ 'React Developer Tools' ],
+    is_always_on_tab_bar_enabled: true,
+    tab_unload_threshold: 36000000,
+    is_tab_unloading_enabled: true,
+    is_zen_mode_enabled: true,
+    should_unload_tabs_before_refresh: false,
+    is_prewarmed_tab_throttling_enabled: true,
+    is_prewarmed_tab_hidden_behind_enabled: false,
+    should_use_prewarmed_tab_heuristic: true
+  }
+}
+[2026-04-23 18:16:53.792] [info]                           notion:set-user-preference { key: 'deferredPrewarmingDelayMs' }
+[2026-04-23 18:16:57.623] [info]                           notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-04-23 18:16:57.642] [info]                           notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: false }
+[2026-04-23 18:16:57.651] [info]                           notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-04-23 18:16:57.659] [info]                           notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-04-23 18:16:57.676] [info]                           notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-04-23 18:16:57.681] [info]                           notion:set-user-preference { key: 'deferredPrewarmingDelayMs' }
+[2026-04-23 18:17:05.469] [info]                           Preventing closure for window with id 1, hiding
+[2026-04-23 18:19:13.675] [info]                           notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-04-23 18:19:13.687] [info]                           notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: false }
+[2026-04-23 18:19:13.711] [info]                           notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-04-23 18:19:13.731] [info]                           notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-04-23 18:19:13.751] [info]                           notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-04-23 18:19:13.785] [info]                           notion:set-user-preference { key: 'deferredPrewarmingDelayMs' }
+[2026-04-23 18:19:50.094] [info]                           ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.6.1',
+  desktopCPU: 'Intel(R) Pentium(R) CPU 4417U @ 2.30GHz',
+  desktopRAM: '4G',
+  clientEnvironmentData: {
+    idbSessionId: '7738607e-460a-4685-85a0-1dfb1c076398',
+    version: '23.13.20260423.0447',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.6.1 Chrome/142.0.7444.265 Electron/39.5.2 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 484097348,
+    storageQuotaEstimate: 23728295236,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.24-1-lts',
+    desktopElectronVersion: '39.5.2',
+    desktopChromiumVersion: '142.0.7444.265',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopIsPostStartupGracePeriod: true,
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.6.1'
+  },
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260423.0447' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerInstall'
+}
+[2026-04-23 18:19:50.621] [info]                           ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.6.1',
+  desktopCPU: 'Intel(R) Pentium(R) CPU 4417U @ 2.30GHz',
+  desktopRAM: '4G',
+  clientEnvironmentData: {
+    idbSessionId: '7738607e-460a-4685-85a0-1dfb1c076398',
+    version: '23.13.20260423.0447',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.6.1 Chrome/142.0.7444.265 Electron/39.5.2 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 484097348,
+    storageQuotaEstimate: 23728295236,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.24-1-lts',
+    desktopElectronVersion: '39.5.2',
+    desktopChromiumVersion: '142.0.7444.265',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopIsPostStartupGracePeriod: true,
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.6.1'
+  },
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260423.0447' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerActivate'
+}
+[2026-04-23 18:19:58.944] [info]                           notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-04-23 18:19:58.952] [info]                           notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: false }
+[2026-04-23 18:19:58.965] [info]                           notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-04-23 18:19:58.974] [info]                           notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-04-23 18:19:58.994] [info]                           notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-04-23 18:19:59.016] [info]                           notion:set-user-preference { key: 'deferredPrewarmingDelayMs' }
+[2026-04-23 18:20:00.009] [info]                           notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-04-23 18:20:00.015] [info]                           notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: false }
+[2026-04-23 18:20:00.020] [info]                           notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-04-23 18:20:00.025] [info]                           notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-04-23 18:20:00.036] [info]                           notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-04-23 18:20:00.042] [info]                           notion:set-user-preference { key: 'deferredPrewarmingDelayMs' }
+[2026-04-23 18:20:00.108] [info]                           notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-04-23 18:20:00.122] [info]                           notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: false }
+[2026-04-23 18:20:00.127] [info]                           notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-04-23 18:20:00.132] [info]                           notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-04-23 18:20:00.139] [info]                           notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-04-23 18:20:00.143] [info]                           notion:set-user-preference { key: 'deferredPrewarmingDelayMs' }
+[2026-04-23 19:16:46.897] [info]                           {
+  eventName: 'electron_memory_usage',
+  eventProperties: {
+    system_memory_total_gb: 4,
+    system_memory_free: 188,
+    app_working_set_size_total: 234,
+    tabs_working_set_size_total: 122,
+    tabs_private_memory_total: 144,
+    prewarmed_tabs_working_set_size_total: 66,
+    main_process_working_set_size_total: 33,
+    gpu_working_set_size_total: 4,
+    network_service_working_set_size_total: 11,
+    sqlite_server_working_set_size_total: -1,
+    audio_service_working_set_size_total: -1,
+    video_capture_service_working_set_size_total: -1,
+    utility_process_working_set_size_total: 19,
+    tab_bar_working_set_size_total: 2,
+    quick_search_working_set_size_total: 54,
+    tab_preview_working_set_size_total: -1,
+    web_contents_working_set_size_total: 56,
+    meeting_notification_working_set_size_total: -1,
+    unknown_tab_process_count: 0,
+    unknown_tab_working_set_size_total: 0,
+    process_count: 8,
+    tab_process_count: 2,
+    tabs_in_state_count: 1,
+    utility_process_names: [ 'Network Service', 'Sqlite Server' ],
+    web_contents_process_names: [ 'Tab Bar', 'Quick Search' ]
+  }
+}
+[2026-04-23 19:53:53.214] [info]                           System suspend detected
+[2026-04-23 19:53:53.220] [info]                           System suspend detected
+[2026-04-23 20:41:26.955] [info]                           System resume detected - checking for stale recording states
+[2026-04-23 20:41:27.001] [info]                           System resume detected - checking for stale recording states
+[2026-04-23 20:41:27.452] [info]                           {
+  eventName: 'electron_memory_usage',
+  eventProperties: {
+    system_memory_total_gb: 4,
+    system_memory_free: 393,
+    app_working_set_size_total: 430,
+    tabs_working_set_size_total: 187,
+    tabs_private_memory_total: 144,
+    prewarmed_tabs_working_set_size_total: 96,
+    main_process_working_set_size_total: 76,
+    gpu_working_set_size_total: 6,
+    network_service_working_set_size_total: 38,
+    sqlite_server_working_set_size_total: -1,
+    audio_service_working_set_size_total: -1,
+    video_capture_service_working_set_size_total: -1,
+    utility_process_working_set_size_total: 47,
+    tab_bar_working_set_size_total: 17,
+    quick_search_working_set_size_total: 97,
+    tab_preview_working_set_size_total: -1,
+    web_contents_working_set_size_total: 114,
+    meeting_notification_working_set_size_total: -1,
+    unknown_tab_process_count: 0,
+    unknown_tab_working_set_size_total: 0,
+    process_count: 8,
+    tab_process_count: 2,
+    tabs_in_state_count: 1,
+    utility_process_names: [ 'Network Service', 'Sqlite Server' ],
+    web_contents_process_names: [ 'Tab Bar', 'Quick Search' ]
+  }
+}
+[2026-04-23 20:58:16.232] [info]                           System suspend detected
+[2026-04-23 20:58:16.239] [info]                           System suspend detected
+[2026-04-23 22:00:56.980] [info]                           System resume detected - checking for stale recording states
+[2026-04-23 22:00:56.983] [info]                           System resume detected - checking for stale recording states
+[2026-04-23 22:00:57.791] [info]                           {
+  eventName: 'electron_memory_usage',
+  eventProperties: {
+    system_memory_total_gb: 4,
+    system_memory_free: 332,
+    app_working_set_size_total: 455,
+    tabs_working_set_size_total: 208,
+    tabs_private_memory_total: 142,
+    prewarmed_tabs_working_set_size_total: 106,
+    main_process_working_set_size_total: 77,
+    gpu_working_set_size_total: 7,
+    network_service_working_set_size_total: 38,
+    sqlite_server_working_set_size_total: -1,
+    audio_service_working_set_size_total: -1,
+    video_capture_service_working_set_size_total: -1,
+    utility_process_working_set_size_total: 48,
+    tab_bar_working_set_size_total: 18,
+    quick_search_working_set_size_total: 97,
+    tab_preview_working_set_size_total: -1,
+    web_contents_working_set_size_total: 115,
+    meeting_notification_working_set_size_total: -1,
+    unknown_tab_process_count: 0,
+    unknown_tab_working_set_size_total: 0,
+    process_count: 8,
+    tab_process_count: 2,
+    tabs_in_state_count: 1,
+    utility_process_names: [ 'Network Service', 'Sqlite Server' ],
+    web_contents_process_names: [ 'Tab Bar', 'Quick Search' ]
+  }
+}
+[2026-04-23 22:28:18.848] [error]                          render-process-gone {
+  url: 'file:///usr/lib/notion-app/app.asar/.webpack/renderer/tabs/index.html',
+  details: { reason: 'clean-exit', exitCode: 0 }
+}
+[2026-04-23 22:28:18.863] [info]                           Quitting...
+[2026-04-23 22:28:18.993] [error]                          DetachFromWindow: TabController ae67e6b7-9eba-4f0b-9f13-c8acfad8c65b not attached to any window
+[2026-04-23 22:28:19.025] [info]                           Window with id 1 closed
+[2026-04-23 22:28:19.089] [error]                          child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'network.mojom.NetworkService',
+  name: 'Network Service'
+}
+[2026-04-23 22:28:19.322] [info]                           ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.6.1',
+  desktopCPU: 'Intel(R) Pentium(R) CPU 4417U @ 2.30GHz',
+  desktopRAM: '4G',
+  clientEnvironmentData: {
+    idbSessionId: 'dd0a1387-f299-41fe-a586-78a70ad35b50',
+    version: '23.13.20260423.0447',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.6.1 Chrome/142.0.7444.265 Electron/39.5.2 Safari/537.36 WantsServiceWorker',
+    referrer: 'https://www.notion.so/blank?tabCount=0',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 492103769,
+    storageQuotaEstimate: 23724279897,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.24-1-lts',
+    desktopElectronVersion: '39.5.2',
+    desktopChromiumVersion: '142.0.7444.265',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopIsPostStartupGracePeriod: true,
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.6.1'
+  },
+  environment: 'production',
+  data: {
+    groups: [
+      {
+        type: 'Utility',
+        serviceName: 'network.mojom.NetworkService',
+        name: 'Network Service',
+        count: 1,
+        reasons: [ 'killed' ],
+        exitCodes: [ 15 ]
+      }
+    ],
+    aggregationPeriod: '1hour'
+  },
+  level: 'error',
+  from: 'ChildProcessReporter',
+  type: 'childProcessGone'
+}

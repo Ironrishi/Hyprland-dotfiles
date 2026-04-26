@@ -1,0 +1,37 @@
+[2026-04-23 18:16:45.519] [info]  (SqliteServer)           Child process running on 46045
+[2026-04-23 18:16:51.755] [info]  (SqliteServer)           stdout: 18:16:51.727 › Listening to 1 MessagePort(s) for renderer 4 (https://www.notion.so/?loadOrigin=new_tab&tabCount=0)
+
+[2026-04-23 18:16:51.839] [info]  (SqliteServer)           stdout: 18:16:51.836 › Enabling corruption repair
+
+[2026-04-23 18:16:54.008] [info]  (SqliteServer)           stdout: 18:16:53.944 › Enabling corruption repair
+
+[2026-04-23 18:16:54.766] [info]  (SqliteServer)           stdout: 18:16:54.761 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/blank?tabCount=0)
+
+[2026-04-23 18:16:55.525] [info]  (SqliteServer)           stdout: 18:16:55.523 › Enabling corruption repair
+
+[2026-04-23 18:16:58.287] [info]  (SqliteServer)           stdout: 18:16:58.285 › Enabling corruption repair
+
+[2026-04-23 18:19:12.762] [info]  (SqliteServer)           stdout: 18:19:12.758 › Listening to 1 MessagePort(s) for renderer 6 (https://www.notion.so/quick-search)
+
+[2026-04-23 18:19:12.784] [info]  (SqliteServer)           stdout: 18:19:12.783 › Enabling corruption repair
+
+[2026-04-23 18:19:13.812] [info]  (SqliteServer)           stdout: 18:19:13.805 › Enabling corruption repair
+
+[2026-04-23 18:19:57.234] [info]  (SqliteServer)           stdout: 18:19:57.228 › Listening to 1 MessagePort(s) for renderer 4 (https://www.notion.so/login?loadOrigin=service_worker_change)
+
+[2026-04-23 18:19:57.284] [info]  (SqliteServer)           stdout: 18:19:57.283 › Enabling corruption repair
+
+[2026-04-23 18:19:58.198] [info]  (SqliteServer)           stdout: 18:19:58.197 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/blank?tabCount=0&loadOrigin=service_worker_change)
+
+[2026-04-23 18:19:59.037] [info]  (SqliteServer)           stdout: 18:19:58.948 › Enabling corruption repair
+18:19:58.955 › Enabling corruption repair
+
+[2026-04-23 18:19:59.049] [info]  (SqliteServer)           stdout: 18:19:59.045 › Listening to 1 MessagePort(s) for renderer 6 (https://www.notion.so/quick-search?loadOrigin=service_worker_change)
+
+[2026-04-23 18:19:59.117] [info]  (SqliteServer)           stdout: 18:19:59.114 › Enabling corruption repair
+
+[2026-04-23 18:20:00.205] [info]  (SqliteServer)           stdout: 18:20:00.204 › Enabling corruption repair
+
+[2026-04-23 18:20:01.304] [info]  (SqliteServer)           stdout: 18:20:01.302 › Enabling corruption repair
+
+[2026-04-23 22:28:18.994] [info]  (SqliteServer)           Killing child process

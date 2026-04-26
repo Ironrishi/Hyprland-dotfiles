@@ -1,0 +1,78 @@
+* {
+  font-family: -apple-system, SF Pro Display, Helvetica Neue, sans-serif;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.notification-row:focus,
+.notification-row:hover {
+  opacity: 0.9;
+}
+
+.notification {
+  border-radius: 14px;
+  margin: 6px 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.08);
+  border: 0.5px solid rgba(255,255,255,0.3);
+}
+
+.notification-content {
+  background: rgba(255, 255, 255, 0.82);
+  padding: 16px 18px;
+  border-radius: 14px;
+}
+
+.notification-default-action,
+.notification-action {
+  background: rgba(255, 255, 255, 0.82);
+  border-radius: 14px;
+  color: #1a1a1a;
+  border: none;
+}
+
+.notification-default-action:hover,
+.notification-action:hover {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.summary {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.time {
+  font-size: 11px;
+  color: #888;
+}
+
+.body {
+  font-size: 16px;
+  color: #444;
+}
+
+.app-icon {
+  border-radius: 12px;
+}
+
+.close-button {
+  background: rgba(0,0,0,0.08);
+  border-radius: 50%;
+  color: #666;
+  border: none;
+  min-width: 18px;
+  min-height: 18px;
+  font-size: 11px;
+}
+
+.close-button:hover {
+  background: rgba(0,0,0,0.15);
+}
+
+.control-center {
+  background: rgba(240, 240, 245, 0.88);
+  border-radius: 16px;
+  border: 0.5px solid rgba(255,255,255,0.4);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 8px;
+}

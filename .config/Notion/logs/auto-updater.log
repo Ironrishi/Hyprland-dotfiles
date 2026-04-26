@@ -1,0 +1,4 @@
+[2026-04-23 18:16:54.994] [info]  (auto-updater)           Checking for update
+[2026-04-23 18:16:54.996] [info]  (auto-updater)           Checking for update
+[2026-04-23 18:16:55.018] [error] (auto-updater)           Error: Error: ENOENT: no such file or directory, open '/usr/lib/electron39/resources/app-update.yml'
+[2026-04-23 18:16:55.047] [warn]  (auto-updater)           Error checking for update Error: ENOENT: no such file or directory, open '/usr/lib/electron39/resources/app-update.yml'

@@ -1,0 +1,5151 @@
+[2026-04-23 00:12:41.177] [info] Checking for update
+[2026-04-23 00:12:41.251] [info] Error reading /home/rishi/.config/notion-app-enhanced/cookies.json {
+  constructor: 'Error',
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/home/rishi/.config/notion-app-enhanced/cookies.json',
+  stack: "Error: /home/rishi/.config/notion-app-enhanced/cookies.json: ENOENT: no such file or directory, open '/home/rishi/.config/notion-app-enhanced/cookies.json'\n" +
+    '    at Object.openSync (fs.js:466:3)\n' +
+    '    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1812)\n' +
+    '    at Object.readFileSync (fs.js:368:35)\n' +
+    '    at Object.e.readFileSync (electron/js2c/asar_bundle.js:5:8592)\n' +
+    '    at Object.readFileSync (/opt/Notion Enhanced/resources/app.asar/node_modules/jsonfile/index.js:61:22)\n' +
+    '    at JsonStore.loadSync (/opt/Notion Enhanced/resources/app.asar/main/JsonStore.js:38:44)\n' +
+    '    at new JsonStore (/opt/Notion Enhanced/resources/app.asar/main/JsonStore.js:15:14)\n' +
+    '    at Object.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:37:25)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1152:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1173:10)'
+}
+[2026-04-23 00:12:42.068] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2026-04-23 00:12:42.072] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'
+[2026-04-23 00:12:42.074] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'"
+  }
+}
+[2026-04-23 00:12:42.078] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'errorReadingPath',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'",
+    stack: "Error: ENOENT: no such file or directory, open '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'"
+  },
+  data: {
+    message: 'Error reading /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2026-04-23 00:12:42.079] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: {}
+}
+[2026-04-23 00:12:42.080] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionEmptyLatestVersion'
+}
+[2026-04-23 00:12:42.080] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: {}
+}
+[2026-04-23 00:12:42.701] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'appUpdateAvailable',
+  data: { version: '23.13.20260421.2304' }
+}
+[2026-04-23 00:12:43.613] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.766] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.780] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.796] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.833] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.859] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.874] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.905] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.910] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.918] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.925] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.932] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.944] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.948] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.953] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.960] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.966] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.973] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:43.978] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:44.098] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:44.114] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:45.193] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:12:49.664] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 00:13:33.872] [info] { level: 'info', from: 'AssetCache', type: 'checkingForAppUpdate2' }
+[2026-04-23 00:13:33.878] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'appUpdateDownloadComplete',
+  data: { version: '23.13.20260421.2304' }
+}
+[2026-04-23 00:13:33.881] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'installingAppUpdate',
+  data: { version: '23.13.20260421.2304' }
+}
+[2026-04-23 00:19:43.494] [info] Quitting...
+[2026-04-23 00:19:43.498] [info] Killing child process
+[2026-04-23 00:19:50.227] [info] Checking for update
+[2026-04-23 00:19:51.050] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2026-04-23 00:19:51.054] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'
+[2026-04-23 00:19:51.055] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'"
+  }
+}
+[2026-04-23 00:19:51.069] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: {
+    version: '23.13.20260421.2304',
+    hash: 'bdf2dfd35eed21d911d0c1704eedd2c9'
+  }
+}
+[2026-04-23 00:19:51.070] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets.json headers.json path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/headers.json'
+  }
+}
+[2026-04-23 00:19:51.187] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.20260421.2304' }
+}
+[2026-04-23 00:19:51.474] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2026-04-23 00:19:52.310] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.325] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/frame.mjs' }
+}
+[2026-04-23 00:19:52.328] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/frame.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.336] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.343] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.414] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.424] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/index.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.425] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.430] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.483] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.591] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/env.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.593] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.597] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.635] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.697] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.700] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/fs.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.703] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.708] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.738] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.746] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.752] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.758] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.766] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.771] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.772] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/storage.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.773] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.780] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.798] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/electron.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.799] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.801] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.806] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/notion.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.808] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.812] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.819] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/fmt.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.821] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.823] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.831] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/api/registry.mjs' }
+}
+[2026-04-23 00:19:52.832] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/registry.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.833] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.835] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.840] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/web.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.841] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.847] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.879] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/index.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:52.882] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:52.889] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:52.910] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:52.959] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.022] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.027] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/env/fs.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.032] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.040] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.059] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.066] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.070] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/env/storage.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.072] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.076] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.085] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.090] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.095] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.101] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.106] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.109] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/env/env.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.111] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.113] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.121] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/registry-validation.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.122] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.126] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.131] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/tooltip.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.132] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.135] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.140] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/feather.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.141] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.143] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.148] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/panel.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.150] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.152] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.157] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/corner-action.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.158] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.164] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.341] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.343] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/api/components/corner-action.mjs' }
+}
+[2026-04-23 00:19:53.346] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/repo/theming/variables.css, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.348] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.350] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.359] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.371] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/repo/theming/frame.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.374] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.379] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.498] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/ClientFramework-735621af7980f7c9.js',
+    url: '/_assets/ClientFramework-735621af7980f7c9.js'
+  }
+}
+[2026-04-23 00:19:53.506] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/77386-fabdca61869b3c99.js',
+    url: '/_assets/77386-fabdca61869b3c99.js'
+  }
+}
+[2026-04-23 00:19:53.510] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/68874-86084822fe598bee.js',
+    url: '/_assets/68874-86084822fe598bee.js'
+  }
+}
+[2026-04-23 00:19:53.514] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/44282-37a4d37f3f23dcbe.js',
+    url: '/_assets/44282-37a4d37f3f23dcbe.js'
+  }
+}
+[2026-04-23 00:19:53.516] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/27470-5c79fa8f558cb5be.js',
+    url: '/_assets/27470-5c79fa8f558cb5be.js'
+  }
+}
+[2026-04-23 00:19:53.518] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/28911-57a594c232048bee.js',
+    url: '/_assets/28911-57a594c232048bee.js'
+  }
+}
+[2026-04-23 00:19:53.520] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/95390-5bad3e66d7265d1f.js',
+    url: '/_assets/95390-5bad3e66d7265d1f.js'
+  }
+}
+[2026-04-23 00:19:53.522] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/1424-87f01d00bde3f950.js',
+    url: '/_assets/1424-87f01d00bde3f950.js'
+  }
+}
+[2026-04-23 00:19:53.524] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/66934-f9cabb0c4e3030d0.js',
+    url: '/_assets/66934-f9cabb0c4e3030d0.js'
+  }
+}
+[2026-04-23 00:19:53.526] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/73146-2468951f87463ab0.js',
+    url: '/_assets/73146-2468951f87463ab0.js'
+  }
+}
+[2026-04-23 00:19:53.528] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/app-a383fccce812eb02.js',
+    url: '/_assets/app-a383fccce812eb02.js'
+  }
+}
+[2026-04-23 00:19:53.531] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/17213-6a37e4a43ee4e185.css',
+    url: '/_assets/17213-6a37e4a43ee4e185.css'
+  }
+}
+[2026-04-23 00:19:53.533] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/main-da75a1d9fbd3805c.css',
+    url: '/_assets/main-da75a1d9fbd3805c.css'
+  }
+}
+[2026-04-23 00:19:53.537] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/print.e3e8b7a8.css',
+    url: '/print.e3e8b7a8.css'
+  }
+}
+[2026-04-23 00:19:53.560] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:53.577] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/repo/theming/electronSearch.css, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:53.578] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:53.582] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:53.843] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/statsig/local_eval_config_spec-v23.13.20260421.2304.json',
+    url: '/statsig/local_eval_config_spec-v23.13.20260421.2304.json'
+  }
+}
+[2026-04-23 00:19:53.849] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/repo/theming/electronSearch.css' }
+}
+[2026-04-23 00:19:53.956] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/statsig-e94664a6d668f0a5.js',
+    url: '/_assets/statsig-e94664a6d668f0a5.js'
+  }
+}
+[2026-04-23 00:19:53.963] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/RecordModel-9c2726e72eb0179d.js',
+    url: '/_assets/RecordModel-9c2726e72eb0179d.js'
+  }
+}
+[2026-04-23 00:19:53.973] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/RecordStore-9ec4f9218ba79c1b.js',
+    url: '/_assets/RecordStore-9ec4f9218ba79c1b.js'
+  }
+}
+[2026-04-23 00:19:53.982] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/36556-9b1472d5f4d5aa2a.js',
+    url: '/_assets/36556-9b1472d5f4d5aa2a.js'
+  }
+}
+[2026-04-23 00:19:53.990] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/40537-056e58f55d983d9f.js',
+    url: '/_assets/40537-056e58f55d983d9f.js'
+  }
+}
+[2026-04-23 00:19:53.993] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/44187-a56ee67c76adca9c.js',
+    url: '/_assets/44187-a56ee67c76adca9c.js'
+  }
+}
+[2026-04-23 00:19:54.005] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/52043-cdc4fd7b3b425eae.js',
+    url: '/_assets/52043-cdc4fd7b3b425eae.js'
+  }
+}
+[2026-04-23 00:19:54.008] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/39152-63871a30334205c0.js',
+    url: '/_assets/39152-63871a30334205c0.js'
+  }
+}
+[2026-04-23 00:19:54.019] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/49054-4cd6dc800409eb58.js',
+    url: '/_assets/49054-4cd6dc800409eb58.js'
+  }
+}
+[2026-04-23 00:19:54.024] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/56707-1dc46a178a2232e5.js',
+    url: '/_assets/56707-1dc46a178a2232e5.js'
+  }
+}
+[2026-04-23 00:19:54.032] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/17481-3d8b1fe698b0b11c.js',
+    url: '/_assets/17481-3d8b1fe698b0b11c.js'
+  }
+}
+[2026-04-23 00:19:54.041] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/29663-b7739336ce93e2ff.js',
+    url: '/_assets/29663-b7739336ce93e2ff.js'
+  }
+}
+[2026-04-23 00:19:54.044] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/75136-7bbc4dcf72d6f6ca.js',
+    url: '/_assets/75136-7bbc4dcf72d6f6ca.js'
+  }
+}
+[2026-04-23 00:19:54.052] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/18328-3d28a1abb6f592d2.js',
+    url: '/_assets/18328-3d28a1abb6f592d2.js'
+  }
+}
+[2026-04-23 00:19:54.055] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/21753-84833b1c5569a5dd.js',
+    url: '/_assets/21753-84833b1c5569a5dd.js'
+  }
+}
+[2026-04-23 00:19:54.057] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/56809-bbd4238710e6ef11.js',
+    url: '/_assets/56809-bbd4238710e6ef11.js'
+  }
+}
+[2026-04-23 00:19:54.065] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/32009-490957ce89972e68.js',
+    url: '/_assets/32009-490957ce89972e68.js'
+  }
+}
+[2026-04-23 00:19:54.069] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/22215-93f1137a41ac657f.js',
+    url: '/_assets/22215-93f1137a41ac657f.js'
+  }
+}
+[2026-04-23 00:19:54.071] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/29128-95bd73c285740cd5.js',
+    url: '/_assets/29128-95bd73c285740cd5.js'
+  }
+}
+[2026-04-23 00:19:54.074] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/11864-eab151f7b821fbbf.js',
+    url: '/_assets/11864-eab151f7b821fbbf.js'
+  }
+}
+[2026-04-23 00:19:54.079] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/95857-6f482378240a0fe2.js',
+    url: '/_assets/95857-6f482378240a0fe2.js'
+  }
+}
+[2026-04-23 00:19:54.085] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/RecordMap-56c67fa233f1b48b.js',
+    url: '/_assets/RecordMap-56c67fa233f1b48b.js'
+  }
+}
+[2026-04-23 00:19:54.087] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/64960-2bb6e0ea3f3ea51a.js',
+    url: '/_assets/64960-2bb6e0ea3f3ea51a.js'
+  }
+}
+[2026-04-23 00:19:54.089] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/86828-2e7e8e1074105459.js',
+    url: '/_assets/86828-2e7e8e1074105459.js'
+  }
+}
+[2026-04-23 00:19:54.094] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/74799-7a23a259e9f25624.js',
+    url: '/_assets/74799-7a23a259e9f25624.js'
+  }
+}
+[2026-04-23 00:19:54.096] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/16579-85378f3ea87beb9f.js',
+    url: '/_assets/16579-85378f3ea87beb9f.js'
+  }
+}
+[2026-04-23 00:19:54.098] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/49857-7822463b490d6a2d.js',
+    url: '/_assets/49857-7822463b490d6a2d.js'
+  }
+}
+[2026-04-23 00:19:54.099] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/16922-4778191e8b722aa2.js',
+    url: '/_assets/16922-4778191e8b722aa2.js'
+  }
+}
+[2026-04-23 00:19:54.101] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/66444-e883ce370cf0d0bc.js',
+    url: '/_assets/66444-e883ce370cf0d0bc.js'
+  }
+}
+[2026-04-23 00:19:54.105] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/71738-eaf4c7a2dff03ef5.js',
+    url: '/_assets/71738-eaf4c7a2dff03ef5.js'
+  }
+}
+[2026-04-23 00:19:54.107] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/77716-0e6f203f85eb09f2.js',
+    url: '/_assets/77716-0e6f203f85eb09f2.js'
+  }
+}
+[2026-04-23 00:19:54.108] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/65594-e4a8e50e8aed8205.js',
+    url: '/_assets/65594-e4a8e50e8aed8205.js'
+  }
+}
+[2026-04-23 00:19:54.112] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/29087-00fa519ac11cd9e8.js',
+    url: '/_assets/29087-00fa519ac11cd9e8.js'
+  }
+}
+[2026-04-23 00:19:54.114] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/90249-de12e4fc1cc9f4c7.js',
+    url: '/_assets/90249-de12e4fc1cc9f4c7.js'
+  }
+}
+[2026-04-23 00:19:54.116] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/35235-93cd2cc3639ef0db.js',
+    url: '/_assets/35235-93cd2cc3639ef0db.js'
+  }
+}
+[2026-04-23 00:19:54.118] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/6870-28245317321ee57b.js',
+    url: '/_assets/6870-28245317321ee57b.js'
+  }
+}
+[2026-04-23 00:19:54.120] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/85810-f45096837ceb5aef.js',
+    url: '/_assets/85810-f45096837ceb5aef.js'
+  }
+}
+[2026-04-23 00:19:54.122] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/85713-d6a8e3d83bca751c.js',
+    url: '/_assets/85713-d6a8e3d83bca751c.js'
+  }
+}
+[2026-04-23 00:19:54.126] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/mainApp-af180a50e103e868.js',
+    url: '/_assets/mainApp-af180a50e103e868.js'
+  }
+}
+[2026-04-23 00:19:54.144] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/48860-a7a5ac754a188581.js',
+    url: '/_assets/48860-a7a5ac754a188581.js'
+  }
+}
+[2026-04-23 00:19:54.147] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/63793-9655e62b80b0b389.js',
+    url: '/_assets/63793-9655e62b80b0b389.js'
+  }
+}
+[2026-04-23 00:19:54.150] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/18881-3c068edf0f01bbe9.js',
+    url: '/_assets/18881-3c068edf0f01bbe9.js'
+  }
+}
+[2026-04-23 00:19:54.153] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/75234-9aa349b59c9f003a.js',
+    url: '/_assets/75234-9aa349b59c9f003a.js'
+  }
+}
+[2026-04-23 00:19:54.156] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/66200-d5ee4d6591c70fb4.js',
+    url: '/_assets/66200-d5ee4d6591c70fb4.js'
+  }
+}
+[2026-04-23 00:19:54.159] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/73229-75b6251b70deb418.js',
+    url: '/_assets/73229-75b6251b70deb418.js'
+  }
+}
+[2026-04-23 00:19:54.161] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/48955-757264c71667c221.js',
+    url: '/_assets/48955-757264c71667c221.js'
+  }
+}
+[2026-04-23 00:19:54.162] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/BlockPropertyRouter-59e0ccb6a8b1b2e2.js',
+    url: '/_assets/BlockPropertyRouter-59e0ccb6a8b1b2e2.js'
+  }
+}
+[2026-04-23 00:19:54.167] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/48095-d1b13bda49b3ac06.js',
+    url: '/_assets/48095-d1b13bda49b3ac06.js'
+  }
+}
+[2026-04-23 00:19:54.171] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/61989-bf5ed7a393132315.js',
+    url: '/_assets/61989-bf5ed7a393132315.js'
+  }
+}
+[2026-04-23 00:19:54.173] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/59133-4e01162cddb0cdaf.js',
+    url: '/_assets/59133-4e01162cddb0cdaf.js'
+  }
+}
+[2026-04-23 00:19:54.175] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/71589-c7523751ecf63035.js',
+    url: '/_assets/71589-c7523751ecf63035.js'
+  }
+}
+[2026-04-23 00:19:54.179] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/82853-bcb1392217a3acf1.js',
+    url: '/_assets/82853-bcb1392217a3acf1.js'
+  }
+}
+[2026-04-23 00:19:54.181] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/65603-0d2dadb6ecf988c9.js',
+    url: '/_assets/65603-0d2dadb6ecf988c9.js'
+  }
+}
+[2026-04-23 00:19:54.183] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/71093-d443a99a19616b3e.js',
+    url: '/_assets/71093-d443a99a19616b3e.js'
+  }
+}
+[2026-04-23 00:19:54.185] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/SidebarComponent-208a089a37cae475.js',
+    url: '/_assets/SidebarComponent-208a089a37cae475.js'
+  }
+}
+[2026-04-23 00:19:54.866] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 00:19:54.868] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/client.mjs' }
+}
+[2026-04-23 00:19:54.871] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/client.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 00:19:54.872] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 00:19:54.876] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 00:19:54.900] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/18763-ac619dd144d51998.js',
+    url: '/_assets/18763-ac619dd144d51998.js'
+  }
+}
+[2026-04-23 00:19:54.902] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/sentry-64d0d6c10255ff09.js',
+    url: '/_assets/sentry-64d0d6c10255ff09.js'
+  }
+}
+[2026-04-23 18:06:56.663] [info] Checking for update
+[2026-04-23 18:06:58.610] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2026-04-23 18:06:58.615] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'
+[2026-04-23 18:06:58.616] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'"
+  }
+}
+[2026-04-23 18:06:58.658] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: {
+    version: '23.13.20260421.2304',
+    hash: 'bdf2dfd35eed21d911d0c1704eedd2c9'
+  }
+}
+[2026-04-23 18:06:58.660] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets.json headers.json path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/headers.json'
+  }
+}
+[2026-04-23 18:06:58.788] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.20260421.2304' }
+}
+[2026-04-23 18:06:59.314] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'appUpdateAvailable',
+  data: { version: '23.13.20260423.0447' }
+}
+[2026-04-23 18:07:01.922] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.030] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/frame.mjs' }
+}
+[2026-04-23 18:07:02.047] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/frame.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.050] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.069] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:02.182] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.262] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.334] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.359] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/index.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.360] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.365] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:02.531] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/api/index.mjs' }
+}
+[2026-04-23 18:07:02.626] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.646] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.649] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/env.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.650] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.656] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:02.688] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.705] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.714] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.726] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.738] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.746] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.753] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:02.758] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/fs.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.762] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.770] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:02.812] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/storage.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.813] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.817] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:02.833] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/electron.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.838] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.842] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:02.850] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/notion.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.852] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.859] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:02.875] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/fmt.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.876] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.879] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:02.892] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/registry.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.895] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.903] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:02.917] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/web.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.920] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.926] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:02.942] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/index.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:02.943] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:02.946] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:03.020] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:03.065] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:03.068] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/env/env.mjs' }
+}
+[2026-04-23 18:07:03.070] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/env/env.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:03.071] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:03.079] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:03.105] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/env/fs.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:03.106] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:03.109] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:03.142] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:03.162] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:03.165] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/env/storage.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:03.167] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:03.170] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:03.209] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:03.225] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:03.252] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:03.281] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:03.284] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/registry-validation.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:03.287] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:03.297] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:03.355] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/tooltip.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:03.356] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:03.359] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:03.365] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/feather.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:03.366] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:03.369] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:03.386] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/panel.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:03.390] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:03.396] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:03.403] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/corner-action.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:03.404] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:03.407] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:03.506] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/ClientFramework-735621af7980f7c9.js',
+    url: '/_assets/ClientFramework-735621af7980f7c9.js'
+  }
+}
+[2026-04-23 18:07:03.527] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/77386-fabdca61869b3c99.js',
+    url: '/_assets/77386-fabdca61869b3c99.js'
+  }
+}
+[2026-04-23 18:07:03.555] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/68874-86084822fe598bee.js',
+    url: '/_assets/68874-86084822fe598bee.js'
+  }
+}
+[2026-04-23 18:07:03.558] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/44282-37a4d37f3f23dcbe.js',
+    url: '/_assets/44282-37a4d37f3f23dcbe.js'
+  }
+}
+[2026-04-23 18:07:03.561] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/27470-5c79fa8f558cb5be.js',
+    url: '/_assets/27470-5c79fa8f558cb5be.js'
+  }
+}
+[2026-04-23 18:07:03.567] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/28911-57a594c232048bee.js',
+    url: '/_assets/28911-57a594c232048bee.js'
+  }
+}
+[2026-04-23 18:07:03.576] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/95390-5bad3e66d7265d1f.js',
+    url: '/_assets/95390-5bad3e66d7265d1f.js'
+  }
+}
+[2026-04-23 18:07:03.584] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/1424-87f01d00bde3f950.js',
+    url: '/_assets/1424-87f01d00bde3f950.js'
+  }
+}
+[2026-04-23 18:07:03.601] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/66934-f9cabb0c4e3030d0.js',
+    url: '/_assets/66934-f9cabb0c4e3030d0.js'
+  }
+}
+[2026-04-23 18:07:03.604] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/73146-2468951f87463ab0.js',
+    url: '/_assets/73146-2468951f87463ab0.js'
+  }
+}
+[2026-04-23 18:07:03.608] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/app-a383fccce812eb02.js',
+    url: '/_assets/app-a383fccce812eb02.js'
+  }
+}
+[2026-04-23 18:07:03.611] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/17213-6a37e4a43ee4e185.css',
+    url: '/_assets/17213-6a37e4a43ee4e185.css'
+  }
+}
+[2026-04-23 18:07:03.615] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/main-da75a1d9fbd3805c.css',
+    url: '/_assets/main-da75a1d9fbd3805c.css'
+  }
+}
+[2026-04-23 18:07:03.618] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/print.e3e8b7a8.css',
+    url: '/print.e3e8b7a8.css'
+  }
+}
+[2026-04-23 18:07:03.625] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/api/components/corner-action.mjs' }
+}
+[2026-04-23 18:07:03.840] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:03.879] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:03.885] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/repo/theming/variables.css, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:03.887] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:03.894] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:03.930] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/repo/theming/frame.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:03.932] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:03.935] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:04.259] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:04.277] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/repo/theming/electronSearch.css' }
+}
+[2026-04-23 18:07:04.281] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/repo/theming/electronSearch.css, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:04.286] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:04.291] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:04.562] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/statsig/local_eval_config_spec-v23.13.20260421.2304.json',
+    url: '/statsig/local_eval_config_spec-v23.13.20260421.2304.json'
+  }
+}
+[2026-04-23 18:07:04.731] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/statsig-e94664a6d668f0a5.js',
+    url: '/_assets/statsig-e94664a6d668f0a5.js'
+  }
+}
+[2026-04-23 18:07:04.751] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/RecordModel-9c2726e72eb0179d.js',
+    url: '/_assets/RecordModel-9c2726e72eb0179d.js'
+  }
+}
+[2026-04-23 18:07:04.763] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/RecordStore-9ec4f9218ba79c1b.js',
+    url: '/_assets/RecordStore-9ec4f9218ba79c1b.js'
+  }
+}
+[2026-04-23 18:07:04.779] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/36556-9b1472d5f4d5aa2a.js',
+    url: '/_assets/36556-9b1472d5f4d5aa2a.js'
+  }
+}
+[2026-04-23 18:07:04.785] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/40537-056e58f55d983d9f.js',
+    url: '/_assets/40537-056e58f55d983d9f.js'
+  }
+}
+[2026-04-23 18:07:04.792] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/44187-a56ee67c76adca9c.js',
+    url: '/_assets/44187-a56ee67c76adca9c.js'
+  }
+}
+[2026-04-23 18:07:04.797] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/52043-cdc4fd7b3b425eae.js',
+    url: '/_assets/52043-cdc4fd7b3b425eae.js'
+  }
+}
+[2026-04-23 18:07:04.809] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/39152-63871a30334205c0.js',
+    url: '/_assets/39152-63871a30334205c0.js'
+  }
+}
+[2026-04-23 18:07:04.812] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/49054-4cd6dc800409eb58.js',
+    url: '/_assets/49054-4cd6dc800409eb58.js'
+  }
+}
+[2026-04-23 18:07:04.814] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/56707-1dc46a178a2232e5.js',
+    url: '/_assets/56707-1dc46a178a2232e5.js'
+  }
+}
+[2026-04-23 18:07:04.838] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/17481-3d8b1fe698b0b11c.js',
+    url: '/_assets/17481-3d8b1fe698b0b11c.js'
+  }
+}
+[2026-04-23 18:07:04.843] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/29663-b7739336ce93e2ff.js',
+    url: '/_assets/29663-b7739336ce93e2ff.js'
+  }
+}
+[2026-04-23 18:07:04.846] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/75136-7bbc4dcf72d6f6ca.js',
+    url: '/_assets/75136-7bbc4dcf72d6f6ca.js'
+  }
+}
+[2026-04-23 18:07:04.848] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/18328-3d28a1abb6f592d2.js',
+    url: '/_assets/18328-3d28a1abb6f592d2.js'
+  }
+}
+[2026-04-23 18:07:04.871] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/21753-84833b1c5569a5dd.js',
+    url: '/_assets/21753-84833b1c5569a5dd.js'
+  }
+}
+[2026-04-23 18:07:04.875] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/56809-bbd4238710e6ef11.js',
+    url: '/_assets/56809-bbd4238710e6ef11.js'
+  }
+}
+[2026-04-23 18:07:04.876] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/32009-490957ce89972e68.js',
+    url: '/_assets/32009-490957ce89972e68.js'
+  }
+}
+[2026-04-23 18:07:04.878] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/22215-93f1137a41ac657f.js',
+    url: '/_assets/22215-93f1137a41ac657f.js'
+  }
+}
+[2026-04-23 18:07:04.879] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/29128-95bd73c285740cd5.js',
+    url: '/_assets/29128-95bd73c285740cd5.js'
+  }
+}
+[2026-04-23 18:07:04.880] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/11864-eab151f7b821fbbf.js',
+    url: '/_assets/11864-eab151f7b821fbbf.js'
+  }
+}
+[2026-04-23 18:07:04.885] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/95857-6f482378240a0fe2.js',
+    url: '/_assets/95857-6f482378240a0fe2.js'
+  }
+}
+[2026-04-23 18:07:04.892] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/RecordMap-56c67fa233f1b48b.js',
+    url: '/_assets/RecordMap-56c67fa233f1b48b.js'
+  }
+}
+[2026-04-23 18:07:04.894] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/64960-2bb6e0ea3f3ea51a.js',
+    url: '/_assets/64960-2bb6e0ea3f3ea51a.js'
+  }
+}
+[2026-04-23 18:07:04.910] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/86828-2e7e8e1074105459.js',
+    url: '/_assets/86828-2e7e8e1074105459.js'
+  }
+}
+[2026-04-23 18:07:04.912] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/74799-7a23a259e9f25624.js',
+    url: '/_assets/74799-7a23a259e9f25624.js'
+  }
+}
+[2026-04-23 18:07:04.913] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/16579-85378f3ea87beb9f.js',
+    url: '/_assets/16579-85378f3ea87beb9f.js'
+  }
+}
+[2026-04-23 18:07:04.914] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/49857-7822463b490d6a2d.js',
+    url: '/_assets/49857-7822463b490d6a2d.js'
+  }
+}
+[2026-04-23 18:07:04.916] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/16922-4778191e8b722aa2.js',
+    url: '/_assets/16922-4778191e8b722aa2.js'
+  }
+}
+[2026-04-23 18:07:04.921] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/66444-e883ce370cf0d0bc.js',
+    url: '/_assets/66444-e883ce370cf0d0bc.js'
+  }
+}
+[2026-04-23 18:07:04.926] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/71738-eaf4c7a2dff03ef5.js',
+    url: '/_assets/71738-eaf4c7a2dff03ef5.js'
+  }
+}
+[2026-04-23 18:07:04.931] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/77716-0e6f203f85eb09f2.js',
+    url: '/_assets/77716-0e6f203f85eb09f2.js'
+  }
+}
+[2026-04-23 18:07:04.936] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/65594-e4a8e50e8aed8205.js',
+    url: '/_assets/65594-e4a8e50e8aed8205.js'
+  }
+}
+[2026-04-23 18:07:04.938] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/29087-00fa519ac11cd9e8.js',
+    url: '/_assets/29087-00fa519ac11cd9e8.js'
+  }
+}
+[2026-04-23 18:07:04.941] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/90249-de12e4fc1cc9f4c7.js',
+    url: '/_assets/90249-de12e4fc1cc9f4c7.js'
+  }
+}
+[2026-04-23 18:07:04.943] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/35235-93cd2cc3639ef0db.js',
+    url: '/_assets/35235-93cd2cc3639ef0db.js'
+  }
+}
+[2026-04-23 18:07:04.945] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/6870-28245317321ee57b.js',
+    url: '/_assets/6870-28245317321ee57b.js'
+  }
+}
+[2026-04-23 18:07:04.946] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/85810-f45096837ceb5aef.js',
+    url: '/_assets/85810-f45096837ceb5aef.js'
+  }
+}
+[2026-04-23 18:07:04.965] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/85713-d6a8e3d83bca751c.js',
+    url: '/_assets/85713-d6a8e3d83bca751c.js'
+  }
+}
+[2026-04-23 18:07:04.971] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/mainApp-af180a50e103e868.js',
+    url: '/_assets/mainApp-af180a50e103e868.js'
+  }
+}
+[2026-04-23 18:07:05.049] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/48860-a7a5ac754a188581.js',
+    url: '/_assets/48860-a7a5ac754a188581.js'
+  }
+}
+[2026-04-23 18:07:05.074] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/63793-9655e62b80b0b389.js',
+    url: '/_assets/63793-9655e62b80b0b389.js'
+  }
+}
+[2026-04-23 18:07:05.097] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/18881-3c068edf0f01bbe9.js',
+    url: '/_assets/18881-3c068edf0f01bbe9.js'
+  }
+}
+[2026-04-23 18:07:05.100] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/75234-9aa349b59c9f003a.js',
+    url: '/_assets/75234-9aa349b59c9f003a.js'
+  }
+}
+[2026-04-23 18:07:05.134] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/66200-d5ee4d6591c70fb4.js',
+    url: '/_assets/66200-d5ee4d6591c70fb4.js'
+  }
+}
+[2026-04-23 18:07:05.138] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/73229-75b6251b70deb418.js',
+    url: '/_assets/73229-75b6251b70deb418.js'
+  }
+}
+[2026-04-23 18:07:05.140] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/48955-757264c71667c221.js',
+    url: '/_assets/48955-757264c71667c221.js'
+  }
+}
+[2026-04-23 18:07:05.143] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/BlockPropertyRouter-59e0ccb6a8b1b2e2.js',
+    url: '/_assets/BlockPropertyRouter-59e0ccb6a8b1b2e2.js'
+  }
+}
+[2026-04-23 18:07:05.146] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/48095-d1b13bda49b3ac06.js',
+    url: '/_assets/48095-d1b13bda49b3ac06.js'
+  }
+}
+[2026-04-23 18:07:05.172] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/61989-bf5ed7a393132315.js',
+    url: '/_assets/61989-bf5ed7a393132315.js'
+  }
+}
+[2026-04-23 18:07:05.178] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/59133-4e01162cddb0cdaf.js',
+    url: '/_assets/59133-4e01162cddb0cdaf.js'
+  }
+}
+[2026-04-23 18:07:05.181] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/71589-c7523751ecf63035.js',
+    url: '/_assets/71589-c7523751ecf63035.js'
+  }
+}
+[2026-04-23 18:07:05.184] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/82853-bcb1392217a3acf1.js',
+    url: '/_assets/82853-bcb1392217a3acf1.js'
+  }
+}
+[2026-04-23 18:07:05.188] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/65603-0d2dadb6ecf988c9.js',
+    url: '/_assets/65603-0d2dadb6ecf988c9.js'
+  }
+}
+[2026-04-23 18:07:05.192] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/71093-d443a99a19616b3e.js',
+    url: '/_assets/71093-d443a99a19616b3e.js'
+  }
+}
+[2026-04-23 18:07:05.221] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/SidebarComponent-208a089a37cae475.js',
+    url: '/_assets/SidebarComponent-208a089a37cae475.js'
+  }
+}
+[2026-04-23 18:07:09.229] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:07:09.255] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/client.mjs' }
+}
+[2026-04-23 18:07:09.262] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/client.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/index-en-US-ef745cb4306764c6.html'
+  }
+}
+[2026-04-23 18:07:09.264] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:07:09.277] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:07:09.438] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/18763-ac619dd144d51998.js',
+    url: '/_assets/18763-ac619dd144d51998.js'
+  }
+}
+[2026-04-23 18:07:09.449] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260421.2304/assets/_assets/sentry-64d0d6c10255ff09.js',
+    url: '/_assets/sentry-64d0d6c10255ff09.js'
+  }
+}
+[2026-04-23 18:07:36.017] [info] { level: 'info', from: 'AssetCache', type: 'checkingForAppUpdate2' }
+[2026-04-23 18:07:36.019] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'appUpdateDownloadComplete',
+  data: { version: '23.13.20260423.0447' }
+}
+[2026-04-23 18:07:36.027] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'installingAppUpdate',
+  data: { version: '23.13.20260423.0447' }
+}
+[2026-04-23 18:11:04.048] [info] Quitting...
+[2026-04-23 18:11:04.056] [info] Killing child process
+[2026-04-23 18:14:07.047] [info] Checking for update
+[2026-04-23 18:14:08.392] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2026-04-23 18:14:08.403] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'
+[2026-04-23 18:14:08.404] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion Enhanced/resources/app-update.yml'"
+  }
+}
+[2026-04-23 18:14:08.421] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: {
+    version: '23.13.20260423.0447',
+    hash: '6645aa3353182302afbcbb35f9e30bb7'
+  }
+}
+[2026-04-23 18:14:08.423] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets.json headers.json path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/headers.json'
+  }
+}
+[2026-04-23 18:14:08.532] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.20260423.0447' }
+}
+[2026-04-23 18:14:09.260] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2026-04-23 18:14:11.133] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.179] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/frame.mjs' }
+}
+[2026-04-23 18:14:11.184] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/frame.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:11.187] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:11.210] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:11.424] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.475] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/index.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:11.479] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:11.489] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:11.518] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.601] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:11.632] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.659] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.661] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/env.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:11.664] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:11.672] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:11.690] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/api/env.mjs' }
+}
+[2026-04-23 18:14:11.706] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.715] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.721] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.753] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.768] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.786] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.795] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:11.798] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/fs.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:11.800] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:11.810] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:11.875] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/storage.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:11.882] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:11.895] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:11.912] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/electron.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:11.917] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:11.924] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:11.941] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/notion.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:11.943] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:11.946] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:11.954] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/fmt.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:11.956] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:11.961] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:11.974] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/registry.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:11.977] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:11.985] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.000] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/web.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.002] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.005] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.049] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/index.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.053] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.073] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.098] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:12.120] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:12.139] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:12.164] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:12.174] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/env/env.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.176] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.180] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.211] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:12.215] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/env/fs.mjs' }
+}
+[2026-04-23 18:14:12.217] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/env/fs.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.219] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.222] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.235] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/env/storage.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.239] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.245] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.255] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/registry-validation.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.257] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.263] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.288] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:12.297] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:12.308] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:12.314] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/tooltip.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.316] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.319] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.358] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/feather.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.360] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.370] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.387] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/panel.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.389] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.392] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.410] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/api/components/corner-action.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.414] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.421] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.521] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'SentryError',
+    message: 'HTTP Error (403)',
+    stack: 'SentryError: HTTP Error (403)\n' +
+      '    at new SentryError (/opt/Notion Enhanced/resources/app.asar/node_modules/@sentry/utils/dist/error.js:9:28)\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:126:52)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 18:14:12.561] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'SentryError',
+    message: 'HTTP Error (403)',
+    stack: 'SentryError: HTTP Error (403)\n' +
+      '    at new SentryError (/opt/Notion Enhanced/resources/app.asar/node_modules/@sentry/utils/dist/error.js:9:28)\n' +
+      '    at ClientRequest.<anonymous> (/opt/Notion Enhanced/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:126:52)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2026-04-23 18:14:12.721] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/api/components/corner-action.mjs' }
+}
+[2026-04-23 18:14:12.748] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:12.773] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:12.775] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/repo/theming/variables.css, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.777] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.780] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.802] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/repo/theming/frame.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:12.804] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:12.811] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:12.930] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/ClientFramework-22b80cc59ff00758.js',
+    url: '/_assets/ClientFramework-22b80cc59ff00758.js'
+  }
+}
+[2026-04-23 18:14:12.934] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/77386-fabdca61869b3c99.js',
+    url: '/_assets/77386-fabdca61869b3c99.js'
+  }
+}
+[2026-04-23 18:14:12.938] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/68874-86084822fe598bee.js',
+    url: '/_assets/68874-86084822fe598bee.js'
+  }
+}
+[2026-04-23 18:14:12.964] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/41355-643316ef4c270132.js',
+    url: '/_assets/41355-643316ef4c270132.js'
+  }
+}
+[2026-04-23 18:14:12.971] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/27470-5c79fa8f558cb5be.js',
+    url: '/_assets/27470-5c79fa8f558cb5be.js'
+  }
+}
+[2026-04-23 18:14:12.974] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/61269-66000123b40d1bd7.js',
+    url: '/_assets/61269-66000123b40d1bd7.js'
+  }
+}
+[2026-04-23 18:14:12.977] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/95390-5bad3e66d7265d1f.js',
+    url: '/_assets/95390-5bad3e66d7265d1f.js'
+  }
+}
+[2026-04-23 18:14:12.984] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/1424-90f1236b10fb921c.js',
+    url: '/_assets/1424-90f1236b10fb921c.js'
+  }
+}
+[2026-04-23 18:14:12.989] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/66934-cc63ad6a3bb038bc.js',
+    url: '/_assets/66934-cc63ad6a3bb038bc.js'
+  }
+}
+[2026-04-23 18:14:12.996] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/73146-2468951f87463ab0.js',
+    url: '/_assets/73146-2468951f87463ab0.js'
+  }
+}
+[2026-04-23 18:14:13.003] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/app-0ee3aacd23733c75.js',
+    url: '/_assets/app-0ee3aacd23733c75.js'
+  }
+}
+[2026-04-23 18:14:13.006] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/17213-6a37e4a43ee4e185.css',
+    url: '/_assets/17213-6a37e4a43ee4e185.css'
+  }
+}
+[2026-04-23 18:14:13.016] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/main-da75a1d9fbd3805c.css',
+    url: '/_assets/main-da75a1d9fbd3805c.css'
+  }
+}
+[2026-04-23 18:14:13.021] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/print.e3e8b7a8.css',
+    url: '/print.e3e8b7a8.css'
+  }
+}
+[2026-04-23 18:14:13.275] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/repo/theming/frame.mjs' }
+}
+[2026-04-23 18:14:13.299] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:13.304] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/repo/theming/electronSearch.css' }
+}
+[2026-04-23 18:14:13.308] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/repo/theming/electronSearch.css, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:13.313] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:13.320] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:13.502] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/statsig/local_eval_config_spec-v23.13.20260423.0447.json',
+    url: '/statsig/local_eval_config_spec-v23.13.20260423.0447.json'
+  }
+}
+[2026-04-23 18:14:13.586] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/statsig-e94664a6d668f0a5.js',
+    url: '/_assets/statsig-e94664a6d668f0a5.js'
+  }
+}
+[2026-04-23 18:14:13.589] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/RecordModel-4c35299b8fc9695d.js',
+    url: '/_assets/RecordModel-4c35299b8fc9695d.js'
+  }
+}
+[2026-04-23 18:14:13.598] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/RecordStore-9931fc0d9f4e4f8a.js',
+    url: '/_assets/RecordStore-9931fc0d9f4e4f8a.js'
+  }
+}
+[2026-04-23 18:14:13.602] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/36556-9b1472d5f4d5aa2a.js',
+    url: '/_assets/36556-9b1472d5f4d5aa2a.js'
+  }
+}
+[2026-04-23 18:14:13.606] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/40537-056e58f55d983d9f.js',
+    url: '/_assets/40537-056e58f55d983d9f.js'
+  }
+}
+[2026-04-23 18:14:13.616] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/44187-a56ee67c76adca9c.js',
+    url: '/_assets/44187-a56ee67c76adca9c.js'
+  }
+}
+[2026-04-23 18:14:13.624] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/52043-cdc4fd7b3b425eae.js',
+    url: '/_assets/52043-cdc4fd7b3b425eae.js'
+  }
+}
+[2026-04-23 18:14:13.631] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/39152-63871a30334205c0.js',
+    url: '/_assets/39152-63871a30334205c0.js'
+  }
+}
+[2026-04-23 18:14:13.637] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/49054-4cd6dc800409eb58.js',
+    url: '/_assets/49054-4cd6dc800409eb58.js'
+  }
+}
+[2026-04-23 18:14:13.644] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/56707-1dc46a178a2232e5.js',
+    url: '/_assets/56707-1dc46a178a2232e5.js'
+  }
+}
+[2026-04-23 18:14:13.653] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/17481-3d8b1fe698b0b11c.js',
+    url: '/_assets/17481-3d8b1fe698b0b11c.js'
+  }
+}
+[2026-04-23 18:14:13.656] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/29663-6937902479d8f185.js',
+    url: '/_assets/29663-6937902479d8f185.js'
+  }
+}
+[2026-04-23 18:14:13.662] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/21753-e6accc4fd7b9f027.js',
+    url: '/_assets/21753-e6accc4fd7b9f027.js'
+  }
+}
+[2026-04-23 18:14:13.668] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/56809-bbd4238710e6ef11.js',
+    url: '/_assets/56809-bbd4238710e6ef11.js'
+  }
+}
+[2026-04-23 18:14:13.683] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/32009-490957ce89972e68.js',
+    url: '/_assets/32009-490957ce89972e68.js'
+  }
+}
+[2026-04-23 18:14:13.689] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/22215-93f1137a41ac657f.js',
+    url: '/_assets/22215-93f1137a41ac657f.js'
+  }
+}
+[2026-04-23 18:14:13.692] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/29128-95bd73c285740cd5.js',
+    url: '/_assets/29128-95bd73c285740cd5.js'
+  }
+}
+[2026-04-23 18:14:13.704] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/49493-dc5b26f583d26690.js',
+    url: '/_assets/49493-dc5b26f583d26690.js'
+  }
+}
+[2026-04-23 18:14:13.716] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/95857-83a5d092e10ed6be.js',
+    url: '/_assets/95857-83a5d092e10ed6be.js'
+  }
+}
+[2026-04-23 18:14:13.724] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/20805-05e13785121a872d.js',
+    url: '/_assets/20805-05e13785121a872d.js'
+  }
+}
+[2026-04-23 18:14:13.733] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/87658-0ccfae2d65c06c8b.js',
+    url: '/_assets/87658-0ccfae2d65c06c8b.js'
+  }
+}
+[2026-04-23 18:14:13.738] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/RecordMap-d175d44007c8fa3c.js',
+    url: '/_assets/RecordMap-d175d44007c8fa3c.js'
+  }
+}
+[2026-04-23 18:14:13.746] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/64960-2bb6e0ea3f3ea51a.js',
+    url: '/_assets/64960-2bb6e0ea3f3ea51a.js'
+  }
+}
+[2026-04-23 18:14:13.754] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/19056-f88bce4557f875ad.js',
+    url: '/_assets/19056-f88bce4557f875ad.js'
+  }
+}
+[2026-04-23 18:14:13.757] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/74799-c53cec160628bcf9.js',
+    url: '/_assets/74799-c53cec160628bcf9.js'
+  }
+}
+[2026-04-23 18:14:13.765] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/16579-85378f3ea87beb9f.js',
+    url: '/_assets/16579-85378f3ea87beb9f.js'
+  }
+}
+[2026-04-23 18:14:13.769] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/31725-a28d22ec39afa6f9.js',
+    url: '/_assets/31725-a28d22ec39afa6f9.js'
+  }
+}
+[2026-04-23 18:14:13.774] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/16922-8b55c5bbf21c254d.js',
+    url: '/_assets/16922-8b55c5bbf21c254d.js'
+  }
+}
+[2026-04-23 18:14:13.780] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/66444-96653a913e780730.js',
+    url: '/_assets/66444-96653a913e780730.js'
+  }
+}
+[2026-04-23 18:14:13.784] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/71738-5057964fde4bd68d.js',
+    url: '/_assets/71738-5057964fde4bd68d.js'
+  }
+}
+[2026-04-23 18:14:13.788] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/77716-446769f761236bf7.js',
+    url: '/_assets/77716-446769f761236bf7.js'
+  }
+}
+[2026-04-23 18:14:13.794] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/5220-48546ca27612d1c1.js',
+    url: '/_assets/5220-48546ca27612d1c1.js'
+  }
+}
+[2026-04-23 18:14:13.805] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/91697-3dea30c9adcb8426.js',
+    url: '/_assets/91697-3dea30c9adcb8426.js'
+  }
+}
+[2026-04-23 18:14:13.807] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/98078-1767f35d832ef054.js',
+    url: '/_assets/98078-1767f35d832ef054.js'
+  }
+}
+[2026-04-23 18:14:13.811] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/35235-93cd2cc3639ef0db.js',
+    url: '/_assets/35235-93cd2cc3639ef0db.js'
+  }
+}
+[2026-04-23 18:14:13.817] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/6870-5548c75842d5fd51.js',
+    url: '/_assets/6870-5548c75842d5fd51.js'
+  }
+}
+[2026-04-23 18:14:13.822] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/43462-e8d224b6fa358ce7.js',
+    url: '/_assets/43462-e8d224b6fa358ce7.js'
+  }
+}
+[2026-04-23 18:14:13.830] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/mainApp-8a91bdb155c517fe.js',
+    url: '/_assets/mainApp-8a91bdb155c517fe.js'
+  }
+}
+[2026-04-23 18:14:13.888] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/48860-a7a5ac754a188581.js',
+    url: '/_assets/48860-a7a5ac754a188581.js'
+  }
+}
+[2026-04-23 18:14:13.895] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/63793-9655e62b80b0b389.js',
+    url: '/_assets/63793-9655e62b80b0b389.js'
+  }
+}
+[2026-04-23 18:14:13.901] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/18881-3c068edf0f01bbe9.js',
+    url: '/_assets/18881-3c068edf0f01bbe9.js'
+  }
+}
+[2026-04-23 18:14:13.906] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/75234-afb8ee879caf98ae.js',
+    url: '/_assets/75234-afb8ee879caf98ae.js'
+  }
+}
+[2026-04-23 18:14:13.915] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/69556-d5fb06884964964d.js',
+    url: '/_assets/69556-d5fb06884964964d.js'
+  }
+}
+[2026-04-23 18:14:13.921] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/85254-98623c38816b6b7d.js',
+    url: '/_assets/85254-98623c38816b6b7d.js'
+  }
+}
+[2026-04-23 18:14:13.932] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/73229-7e8b56b90475beec.js',
+    url: '/_assets/73229-7e8b56b90475beec.js'
+  }
+}
+[2026-04-23 18:14:13.939] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/36910-a36630193a46f620.js',
+    url: '/_assets/36910-a36630193a46f620.js'
+  }
+}
+[2026-04-23 18:14:13.941] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/BlockPropertyRouter-95f257f936f18a20.js',
+    url: '/_assets/BlockPropertyRouter-95f257f936f18a20.js'
+  }
+}
+[2026-04-23 18:14:13.953] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/48095-d1b13bda49b3ac06.js',
+    url: '/_assets/48095-d1b13bda49b3ac06.js'
+  }
+}
+[2026-04-23 18:14:13.965] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/69193-b2cee28aba39b5ee.js',
+    url: '/_assets/69193-b2cee28aba39b5ee.js'
+  }
+}
+[2026-04-23 18:14:13.971] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/39095-b3f58eb174b13bcd.js',
+    url: '/_assets/39095-b3f58eb174b13bcd.js'
+  }
+}
+[2026-04-23 18:14:13.973] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/71589-66b9eaa2f89ef458.js',
+    url: '/_assets/71589-66b9eaa2f89ef458.js'
+  }
+}
+[2026-04-23 18:14:13.975] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/59133-f2c740a0ceb4db98.js',
+    url: '/_assets/59133-f2c740a0ceb4db98.js'
+  }
+}
+[2026-04-23 18:14:13.982] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/60123-8626fbd3563e164f.js',
+    url: '/_assets/60123-8626fbd3563e164f.js'
+  }
+}
+[2026-04-23 18:14:13.988] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/96989-263155506a49e3d1.js',
+    url: '/_assets/96989-263155506a49e3d1.js'
+  }
+}
+[2026-04-23 18:14:14.001] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/SidebarComponent-14a82ad69636af8a.js',
+    url: '/_assets/SidebarComponent-14a82ad69636af8a.js'
+  }
+}
+[2026-04-23 18:14:15.441] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2026-04-23 18:14:15.449] [info] {
+  level: 'error',
+  from: 'AssetCache',
+  type: 'requestReturnedAsIndexV2',
+  data: { url: '/__notion-enhancer/client.mjs' }
+}
+[2026-04-23 18:14:15.452] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /__notion-enhancer/client.mjs, abs path /home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/index-en-US-3829010b62e6c172.html'
+  }
+}
+[2026-04-23 18:14:15.458] [info] {
+  level: 'error',
+  from: 'schemeHandler',
+  type: 'requestHandlerError',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:168:17)'
+  }
+}
+[2026-04-23 18:14:15.468] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at AsyncFunction.<anonymous> (/opt/Notion Enhanced/resources/app.asar/main/schemeHandler.js:185:13)'
+  }
+}
+[2026-04-23 18:14:15.549] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/18763-ac619dd144d51998.js',
+    url: '/_assets/18763-ac619dd144d51998.js'
+  }
+}
+[2026-04-23 18:14:15.555] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/rishi/.config/notion-app-enhanced/notionAssetCache-v2/23.13.20260423.0447/assets/_assets/sentry-64d0d6c10255ff09.js',
+    url: '/_assets/sentry-64d0d6c10255ff09.js'
+  }
+}
+[2026-04-23 18:14:18.113] [info] Quitting...
+[2026-04-23 18:14:18.114] [info] Killing child process

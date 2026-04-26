@@ -1,0 +1,94 @@
+@import url('../../.cache/wal/colors-waybar.css');
+
+* {
+    font-size:14px;
+    font-family: "CaskaydiaCove Nerd Font", "Font Awesome 6 Free Solid", "Font Awesome 6 Free Regular", "Font Awesome 6 Brands Regular", "Symbols Nerd Font Mono", "Symbols Nerd Font";
+	transition: all 0.5s ease;
+}
+window#waybar{
+    all: unset;
+}
+.modules-left {
+    margin: 10px 0px 0px 10px;
+}
+.modules-center {
+    margin: 10px 0px 0px 0px;
+}
+.modules-right {
+    margin: 10px 10px 0px 0px;
+}
+tooltip {
+    background: @background;
+    border: 1px solid alpha(@color1, 0.8);
+    color: @foreground;
+}
+#clock:hover, #custom-updates:hover, #custom-notification:hover,#bluetooth:hover,#network:hover,#battery:hover, #cpu:hover,#memory:hover,#temperature:hover,#pulseaudio:hover,#language:hover, #mpris:hover, #custom-control-center:hover, #custom-updates:hover label{
+    color: @color2;
+}
+
+#custom-dnd:hover, #custom-tray-icon:hover, #custom-colortemp:hover {
+	color: @color2;
+}
+
+.modules-right .module, .modules-left .module, .modules-center .module {
+    color: @foreground;
+}
+
+#mpris, #clock, #workspaces, #tray, #perf, #misc, #audio, #connection, #custom-control-center, #custom-updates, #privacy {
+    color: @foreground;
+	padding: 10px 15px;
+	margin: 0px 5px;
+	border-radius: 5px;
+    background: alpha(@background, 1);
+	border: 1px solid alpha(@color2, 0.8);
+    box-shadow: 0px 0px 2px alpha(@color2, 1);
+}
+
+#audio .module, #connection .module, #misc .module {
+	margin: 0px 5px;
+}
+
+#workspaces {
+	margin-left: 0px;
+}
+#custom-control-center {
+	margin-right: 0px;
+}
+
+#workspaces button {
+    all: unset;
+    padding: 0px 10px;
+}
+#workspaces button label { 
+   color: alpha(@foreground, 0.5);
+}
+#workspaces button:hover label {
+    color: alpha(@foreground, 0.85);
+}
+#workspaces button.active label {
+    color: alpha(@foreground, 1.0);
+}
+
+#tray #tray { /* Inner tray element. We don't want to style this.*/
+	background-color: transparent;
+	padding: 0px 5px 0px 15px;
+    box-shadow: none;
+	border: none;
+}
+#tray menu {
+	background-color: alpha(@background, 0.9);
+	border: solid 1px alpha(@color1, 0.8);
+}
+#tray menu separator {
+	background-color: alpha(@color1, 0.8);
+}
+#tray menu label {
+	color: @foreground;
+}
+#tray menu menuitem:hover {
+	background-color: @foreground;
+}
+#tray menu menuitem:hover label {
+	color: @background;
+}
+

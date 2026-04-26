@@ -1,0 +1,129 @@
+{
+	"history": {
+		"lastFocusedWindowDisplayState": {
+			"normalBounds": {
+				"x": 0,
+				"y": 0,
+				"width": 940,
+				"height": 1002
+			},
+			"displayBounds": [
+				{
+					"x": 0,
+					"y": 0,
+					"width": 1920,
+					"height": 1080
+				}
+			],
+			"primaryDisplayIndex": 0,
+			"isFullScreen": false,
+			"isHtmlFullScreen": false,
+			"isMaximized": true
+		},
+		"appRestorationState": {
+			"windows": [
+				{
+					"windowId": "e231e2d6-f453-4b4c-be17-294553c29e8c",
+					"focusOrder": 1,
+					"displayState": {
+						"normalBounds": {
+							"x": 0,
+							"y": 0,
+							"width": 940,
+							"height": 1002
+						},
+						"displayBounds": [
+							{
+								"x": 0,
+								"y": 0,
+								"width": 1920,
+								"height": 1080
+							}
+						],
+						"primaryDisplayIndex": 0,
+						"isFullScreen": false,
+						"isHtmlFullScreen": false,
+						"isMaximized": true
+					},
+					"activeTabIdMap": {
+						"ungrouped": "064b379e-5a43-452b-9351-c7562bbf151f"
+					},
+					"activeTabSectionId": "ungrouped",
+					"tabs": [
+						{
+							"tabId": "064b379e-5a43-452b-9351-c7562bbf151f",
+							"url": "https://www.notion.so/",
+							"title": "Log in",
+							"index": 0,
+							"appStoreState": {}
+						}
+					]
+				}
+			],
+			"tabSpaces": []
+		}
+	},
+	"appState": {
+		"zoomFactor": 1,
+		"theme": {
+			"mode": "light",
+			"usingSystemTheme": true,
+			"colors": {
+				"white": "white",
+				"blue": "rgba(39, 131, 222, 1)"
+			},
+			"borderRadius": 4,
+			"textColor": "rgba(44, 44, 43, 1)",
+			"popoverBackgroundColor": "white",
+			"popoverBoxShadow": "0px 20px 24px 0px rgba(25, 25, 25, 0.05), 0px 5px 8px 0px rgba(25, 25, 25, 0.029), 0px 0px 0px 1px rgba(42, 28, 0, 0.07)",
+			"inputBoxShadow": "rgba(28, 19, 1, 0.11) 0 0 0 1px",
+			"inputBackgroundColor": "rgba(66, 35, 3, 0.031)",
+			"dividerColor": "rgba(28, 19, 1, 0.11)",
+			"shadowOpacity": 0
+		},
+		"preferences": {
+			"isAutoUpdaterDisabled": false,
+			"isAutoUpdaterOSSupportBypass": false,
+			"isClosingBrowserTabs": false,
+			"isHardwareAccelerationDisabled": false,
+			"isHideLastWindowOnCloseEnabled": true,
+			"isMenuBarIconEnabled": true,
+			"isNavigationHistoryEnabled": true,
+			"isNewTabSearchEnabled": true,
+			"isOpenAtLoginEnabled": true,
+			"isPinnedTabNewTabEnabled": true,
+			"isTabSpacesEnabled": true,
+			"isQuickSearchEnabled": true,
+			"isTabPreviewEnabled": true,
+			"isTabUnloadingEnabled": true,
+			"isUniversalLinksEnabled": true,
+			"isUsingHttps": true,
+			"isVibrancyEnabled": null,
+			"notionAiShortcut": "shift+ctrl+j",
+			"onStartup": "continue",
+			"quickSearchShortcut": "Shift+CommandOrControl+K",
+			"updaterChannel": null,
+			"ignoreLogMessages": [
+				"Electron Security Warning",
+				"chrome-extension://"
+			],
+			"sqliteConnectionType": "message-ports",
+			"disabledExtensions": [
+				"React Developer Tools"
+			],
+			"isAlwaysOnTabBarEnabled": true,
+			"isZenModeEnabled": true,
+			"isPrewarmedTabThrottlingEnabled": true,
+			"isPrewarmedTabHiddenBehindEnabled": false,
+			"shouldUsePrewarmedTabHeuristic": true,
+			"tabUnloadThreshold": 36000000,
+			"shouldUnloadTabsBeforeRefresh": false
+		},
+		"notificationCount": 0,
+		"isTabBarContextMenuOpen": false,
+		"locale": "en-US",
+		"appLaunchTimestamp": 1776948404288,
+		"lastPrewarmedTabRequestTime": 1776948406304,
+		"prewarmedTabHeuristicEnabledTime": 1776948413788
+	}
+}
